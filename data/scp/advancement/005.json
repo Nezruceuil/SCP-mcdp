@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:dried_kelp",
+          "components": {
+            "minecraft:custom_data": "{005:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "scp:005"
+  }
+}

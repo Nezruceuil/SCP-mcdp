@@ -1,0 +1,1 @@
+give @s recovery_compass[item_model="scp:035",item_name="scp 035",rarity="epic",enchantments={binding_curse:1},equippable={slot:"head"},custom_data={035:1b},max_stack_size=1]

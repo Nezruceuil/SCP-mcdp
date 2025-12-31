@@ -1,0 +1,1 @@
+give @s dried_kelp[custom_data={226:1b},max_stack_size=1,item_name="scp 226",rarity="epic",consumable={consume_seconds:1000000000},item_model="scp:226",food={nutrition:0,saturation:0,can_always_eat:true}] 1

@@ -1,0 +1,1 @@
+give @s baked_potato[item_name="scp 034",rarity="epic",item_model="scp:034",food={nutrition:0,saturation:0,can_always_eat:true},consumable={consume_seconds:1000000000},attribute_modifiers=[{id:"attack_damage",type:"attack_damage",amount:8,operation:"add_value",slot:"mainhand"}],custom_data={034:1b}]

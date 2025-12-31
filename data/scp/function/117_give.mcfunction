@@ -1,0 +1,1 @@
+give @s netherite_sword[unbreakable={},custom_data={117:1b},item_name="scp 117",food={nutrition:0,saturation:0,can_always_eat:true},consumable={consume_seconds:10000000,on_consume_effects:[{type:"minecraft:play_sound",sound:"block.trial_spawner.ominous_activate"}]},rarity="epic"] 1

@@ -1,0 +1,1 @@
+give @s recovery_compass[item_model="scp:154",item_name="scp 154",rarity="epic",custom_data={154:1b},equippable={slot:"offhand",equip_sound:"block.copper_bulb.turn_off",dispensable:true}] 1

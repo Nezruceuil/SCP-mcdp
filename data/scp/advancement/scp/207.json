@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:item_model": "scp:207"
+      }
+    },
+    "title":
+    {
+        "text": "Hummm... my favorite drink",
+        "color": "yellow"
+    },
+    "description": "have cola in your inventory",
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scp:scp/euclid",
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": {}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "a"
+    ]
+  ],
+  "rewards": {
+    "recipes": [],
+    "experience": 2
+  }
+}

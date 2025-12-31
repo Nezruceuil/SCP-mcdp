@@ -1,0 +1,1 @@
+give @s wooden_sword[item_model="scp:081",item_name="scp 081 (seringe)",rarity="epic",food={nutrition:0,saturation:0,can_always_eat:true},consumable={consume_seconds:1999999999},custom_data="{081:1b}"] 1

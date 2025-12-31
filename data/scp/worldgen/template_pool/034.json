@@ -1,0 +1,155 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "scp:034",
+                "projection": "rigid",
+                "processors": [
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:brown_wool",
+                  "probability": 0.3
+                },
+                "output_state": {
+                  "Name": "minecraft:air"
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:block_match",
+                  "block": "minecraft:brown_wool"
+                },
+                "output_state": {
+                  "Name": "minecraft:barrel"
+                },
+                "block_entity_modifier": {
+                  "type": "minecraft:append_loot",
+                  "loot_table": "minecraft:chests/abandoned_mineshaft"
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:skeleton_skull",
+                  "probability": 0.3
+                },
+                "output_state": {
+                  "Name": "air"
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:pointed_dripstone",
+                  "probability": 0.7
+                },
+                "output_state": {
+                  "Name": "air"
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:block_match",
+                  "block": "minecraft:barrel"
+                },
+                "output_state": {
+                  "Name": "minecraft:barrel"
+                },
+                "block_entity_modifier": {
+                  "type": "minecraft:append_loot",
+                  "loot_table": "minecraft:chests/jungle_temple"
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:light_gray_wool",
+                  "probability": 0.7
+                },
+                "output_state": {
+                  "Name": "stone"
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "light_gray_wool",
+                  "probability": 0.85
+                },
+                "output_state": {
+                  "Name": "minecraft:andesite"
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "light_gray_wool",
+                  "probability": 0.7
+                },
+                "output_state": {
+                  "Name": "minecraft:coal_ore"
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "light_gray_wool",
+                  "probability": 0.5
+                },
+                "output_state": {
+                  "Name": "minecraft:gravel"
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:block_match",
+                  "block": "light_gray_wool"
+                },
+                "output_state": {
+                  "Name": "minecraft:iron_ore"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

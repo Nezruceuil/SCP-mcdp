@@ -1,0 +1,83 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "scp:035",
+                "projection": "rigid",
+                "processors": [
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:iron_bars",
+                  "probability": 0.3
+                },
+                "output_state": {
+                  "Name": "air"
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:black_wool",
+                  "probability": 0.4
+                },
+                "output_state": {
+                  "Name": "air"
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:block_match",
+                  "block": "minecraft:black_wool"
+                },
+                "output_state": {
+                  "Name": "minecraft:cracked_deepslate_bricks"
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "gray_wool",
+                  "probability": 0.2
+                },
+                "output_state": {
+                  "Name": "minecraft:cracked_deepslate_bricks"
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:block_match",
+                  "block": "minecraft:gray_wool"
+                },
+                "output_state": {
+                  "Name": "minecraft:deepslate_bricks"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

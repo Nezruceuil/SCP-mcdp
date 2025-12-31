@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+            "items":"nether_star",
+          "components": {
+            "minecraft:custom_data": "{117:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "scp:117.switch"
+  }
+}

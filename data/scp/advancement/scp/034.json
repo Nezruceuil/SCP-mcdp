@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:recovery_compass",
+      "components": {
+        "minecraft:item_model": "scp:034"
+      }
+    },
+    "title":
+    {
+        "text": "I am Invisible",
+        "color": "green"
+    },
+    "description": "use scp 034",
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scp:scp/safe",
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": {}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "a"
+    ]
+  ],
+  "rewards": {
+    "recipes": [],
+    "experience": 2
+  }
+}

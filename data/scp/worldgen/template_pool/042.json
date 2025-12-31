@@ -1,0 +1,147 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "scp:042",
+                "projection": "rigid",
+                "processors": [
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:block_match",
+                  "block": "minecraft:dispenser"
+                },
+                "output_state": {
+                  "Name": "minecraft:dispenser"
+                },
+                "block_entity_modifier": {
+                  "type": "minecraft:append_loot",
+                  "loot_table": "minecraft:entities/pig"
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:block_match",
+                  "block": "minecraft:composter"
+                },
+                "output_state": {
+                  "Name": "minecraft:composter",
+                  "Properties": {
+                    "level": "8"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:composter",
+                  "probability": 0.4
+                },
+                "output_state": {
+                  "Name": "minecraft:composter",
+                  "Properties": {
+                    "level": "4"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:composter",
+                  "probability": 0.1
+                },
+                "output_state": {
+                  "Name": "minecraft:composter",
+                  "Properties": {
+                    "level": "0"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:composter",
+                  "probability": 0.2
+                },
+                "output_state": {
+                  "Name": "minecraft:composter",
+                  "Properties": {
+                    "level": "1"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:composter",
+                  "probability": 0.4
+                },
+                "output_state": {
+                  "Name": "minecraft:composter",
+                  "Properties": {
+                    "level": "2"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:composter",
+                  "probability": 0.5
+                },
+                "output_state": {
+                  "Name": "minecraft:composter",
+                  "Properties": {
+                    "level": "3"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:composter",
+                  "probability": 0.7
+                },
+                "output_state": {
+                  "Name": "minecraft:composter",
+                  "Properties": {
+                    "level": "6"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

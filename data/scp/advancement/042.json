@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_carrot"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "scp:042_fly"
+  }
+}

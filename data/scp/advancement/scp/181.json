@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+       "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:mundane",
+          "custom_color": 6192150
+        },
+        "enchantment_glint_override": true
+      }
+    },
+    "title":
+    {
+        "text": "I am lucky to find that !",
+        "color": "green"
+    },
+    "description": "have a copy of scp 181",
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scp:scp/safe",
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": {}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "a"
+    ]
+  ],
+  "rewards": {
+    "recipes": [],
+    "experience": 2
+  }
+}

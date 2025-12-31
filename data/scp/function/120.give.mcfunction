@@ -1,0 +1,2 @@
+give @s breeze_spawn_egg[entity_data={id:"minecraft:armor_stand",CustomNameVisible:1b,Silent:1b,Invisible:1b,NoBasePlate:1b,Tags:["120a"],DisabledSlots:4144959,CustomName:{"bold":true,"color":"gold","text":"scp 120","underlined":true}},item_name="scp 120a",rarity="epic"] 1
+give @s breeze_spawn_egg[entity_data={id:"minecraft:armor_stand",CustomNameVisible:1b,Silent:1b,Invisible:1b,NoBasePlate:1b,Tags:["120b"],DisabledSlots:4144959,CustomName:{"bold":true,"color":"gold","text":"scp 120","underlined":true}},item_name="scp 120b",rarity="epic"] 1

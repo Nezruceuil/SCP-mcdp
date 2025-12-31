@@ -1,0 +1,1 @@
+summon wandering_trader ~ ~ ~ {Silent:1b,Invulnerable:1b,LastRestock:1,Xp:0,Age:1,Tags:["126"],active_effects:[{id:"minecraft:invisibility",amplifier:255,duration:-1,show_particles:0b}],Offers:{},CustomName:"SCP:126"}

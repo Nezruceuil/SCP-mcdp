@@ -1,0 +1,1 @@
+give @s potion[potion_contents={potion:"minecraft:mundane",custom_color:6192150,custom_effects:[{id:"minecraft:luck",amplifier:255,duration:-1,show_particles:0b,show_icon:0b,ambient:0b}]},custom_name={"italic":false,"text":"scp 181"},rarity="epic",custom_data={181:1b},enchantment_glint_override=true,consumable={consume_seconds:2,animation:"drink",sound:"entity.generic.drink"}] 1

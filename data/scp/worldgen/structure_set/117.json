@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "weight": 1,
+            "structure": "scp:117"
+        }
+    ],
+    "placement": {
+        "type": "random_spread",
+        "separation": 1,
+        "spacing": 40,
+        "salt": 22142
+    }
+}

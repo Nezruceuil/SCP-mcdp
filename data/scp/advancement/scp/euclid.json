@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:yellow_concrete"
+    },
+    "title":
+    {
+        "text": "That isn't Safe",
+        "color": "yellow"
+    },
+    "description": "euclid category",
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "scp:scp/root",
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": {}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "a"
+    ]
+  ],
+  "rewards": {
+    "recipes": [],
+    "experience": 2
+  }
+}

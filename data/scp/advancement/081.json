@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:wooden_sword",
+          "components": {
+            "minecraft:custom_data": "{081:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "scp:081"
+  }
+}

@@ -1,0 +1,45 @@
+{
+    "display": 
+    {
+        "icon":
+        {
+            "id": "minecraft:diamond",
+             "components": {
+        "minecraft:item_model": "black_concrete"
+      }
+        },
+        "title":
+        {
+            "text": "scp",
+            "color": "gold" ,
+            "bold": true,
+            "underlined": true
+        },
+        "description": 
+        {
+            "text": "in the scp universe...",
+            "color": "blue",
+            "italic": true
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:painting/water"
+    },
+    "criteria": 
+    {
+        "minecraft":
+        {
+            "trigger": "recipe_unlocked",
+            "conditions": 
+            {
+                "recipe": "crafting_table"
+            }
+        }
+    },
+    "requirements": 
+    [
+        ["minecraft"]
+    ]
+}

@@ -1,0 +1,1 @@
+give @s recovery_compass[item_model="scp:178",item_name="scp 178",rarity="epic",equippable={slot:"head",equip_sound:"item.book.page_turn",camera_overlay:"minecraft:block/light_gray_stained_glass"},custom_data={178:1b}] 1

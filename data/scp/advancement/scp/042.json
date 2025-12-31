@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:horse_spawn_egg"
+    },
+    "title":
+    {
+        "text": "I am flying",
+        "color": "green"
+    },
+    "description": "make scp 042 fly",
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scp:scp/safe",
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": {}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "a"
+    ]
+  ],
+  "rewards": {
+    "recipes": [],
+    "experience": 2
+  }
+}

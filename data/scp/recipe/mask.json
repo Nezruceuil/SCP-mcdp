@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#@#"
+  ],
+  "key": {
+    "#": "minecraft:string",
+    "@": "#minecraft:wool"
+  },
+  "result": {
+    "id": "minecraft:recovery_compass",
+    "components": {
+        "custom_data": "{mask:1b}" ,
+      "minecraft:item_model": "scp:mask",
+      "minecraft:item_name": "Mask",
+      "minecraft:equippable": {
+        "slot": "head",
+        "camera_overlay": "scp:item/mask_overlay"
+      },
+      "minecraft:rarity": "common"
+    },
+    "count": 1
+  },
+  "show_notification": true
+}

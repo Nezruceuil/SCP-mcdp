@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:baked_potato",
+          "components": {
+            "minecraft:custom_data": "{034:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "scp:034"
+  }
+}

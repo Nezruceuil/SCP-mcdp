@@ -1,0 +1,2 @@
+give @s popped_chorus_fruit[item_model="scp:collar",equippable={slot:"head",equip_sound:"item.armor.equip_chain"},item_name="scp 010 (collar)",rarity=epic,max_stack_size=6,custom_data={010b:1b}] 6
+give @s writable_book[item_name="scp 010 (remote)",rarity=epic,custom_data={010a:1b}]
