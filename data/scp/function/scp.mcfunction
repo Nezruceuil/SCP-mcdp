@@ -320,7 +320,51 @@ execute as @a[tag=226a] if entity @s[scores={226=5}] run give @s recovery_compas
 execute as @a[tag=226a] if entity @s[scores={226=6}] run give @s recovery_compass[item_model="scp:226b6",item_name="scp 226b",rarity="epic",custom_data={226b:1b},max_stack_size=1] 1
 execute as @a[tag=226a] if entity @s[scores={226=7}] run give @s recovery_compass[item_model="scp:226b7",item_name="scp 226b",rarity="epic",custom_data={226b:1b},max_stack_size=1] 1
 
-
-
-
 execute as @a[tag=226a] run tag @s remove 226a
+
+
+#291
+execute as @a if items entity @s weapon.mainhand crafting_table run item replace entity @s weapon.mainhand with crafting_table[lore=[{"color":"light_purple","text":"scp 291"}]]
+execute as @a if items entity @s weapon.offhand crafting_table run item replace entity @s weapon.offhand with crafting_table[lore=[{"color":"light_purple","text":"scp 291"}]]
+execute as @a if items entity @s weapon.mainhand crafter run item replace entity @s weapon.mainhand with crafter[lore=[{"color":"light_purple","text":"scp 291"}]]
+execute as @a if items entity @s weapon.offhand crafter run item replace entity @s weapon.offhand with crafter[lore=[{"color":"light_purple","text":"scp 291"}]]
+
+
+#301
+execute as @a if items entity @s weapon.mainhand ender_pearl run item replace entity @s weapon.mainhand with ender_pearl[lore=[{"color":"light_purple","text":"scp 301"}]]
+execute as @a if items entity @s weapon.offhand ender_pearl run item replace entity @s weapon.offhand with ender_pearl[lore=[{"color":"light_purple","text":"scp 301"}]]
+
+
+#308
+scoreboard objectives add 309 dummy
+
+execute as @a if items entity @s weapon.mainhand *[custom_data={309:1b}] run scoreboard players add @s 309 0
+
+execute as @a[scores={309=..308},gamemode=survival] if items entity @s weapon.mainhand *[custom_data={309:1b}] run scoreboard players add @s 309 1
+execute as @a[scores={309=..308},gamemode=survival] if items entity @s weapon.offhand *[custom_data={309:1b}] run scoreboard players add @s 309 1
+execute as @a[scores={309=1..}] unless items entity @s weapon.mainhand *[custom_data={309:1b}] unless items entity @s weapon.offhand *[custom_data={309:1b}] run scoreboard players remove @s 309 1
+
+execute as @a if score @s 309 matches 50.. run effect give @s nausea 15
+execute as @a if score @s 309 matches 100.. run effect give @s nausea 15 2
+execute as @a if score @s 309 matches 200.. run effect give @s nausea 15 9
+execute as @a at @s if score @s 309 matches 309 run function scp:309
+
+
+#323
+
+execute as @e[tag=!323a] if items entity @s armor.head *[custom_data={323:1b}] run tag @s add 323a
+execute as @e[tag=323a] unless items entity @s armor.head *[custom_data={323:1b}] run tag @s remove 323a
+execute as @e[tag=323a] at @s run item replace entity @s armor.head with recovery_compass[item_model="scp:323",item_name="scp 323",rarity="epic",equippable={slot:"head",equip_sound:"block.bone_block.break"},custom_data={323:1b},enchantments={binding_curse:1}]
+
+execute as @e[tag=323a] at @s as @e[distance=1..15,tag=!323e] if entity @s[type=!item,type=!experience_orb,type=!armor_stand,type=!#arrows,type=!#boat,type=!#impact_projectiles,type=!minecart,type=!tnt] if entity @s[type=!tnt_minecart,type=!furnace_minecart,type=!item_frame,type=!glow_item_frame] run tag @s add 323
+execute as @e at @s unless entity @e[distance=1..15,tag=323a] run tag @s remove 323
+execute as @e[tag=323,tag=!323e] at @s unless entity @e[distance=..2.5,tag=323e] run summon pig ~ ~-0.5 ~ {Tags:["323e"],Silent:1b,Invulnerable:1b,DeathLootTable:"minecraft:empty"}
+execute as @e[tag=323,tag=!323e] at @s run ride @e[distance=..2.5,tag=323e,limit=1] mount @s
+execute as @e[tag=323,tag=!323e] at @s run effect give @s invisibility 3 255 true
+execute as @e[tag=323e] at @s unless entity @e[distance=1..15.5,tag=323a] run kill @s
+
+
+#365
+
+execute as @e if items entity @s weapon.mainhand *[custom_data={365:1b}] at @s if block ~ ~ ~ water if block ~ ~-1 ~ water if block ~ ~1 ~ water run tp @s ~ ~-0.4 ~
+execute as @e if items entity @s weapon.offhand *[custom_data={365:1b}] at @s if block ~ ~ ~ water if block ~ ~-1 ~ water if block ~ ~1 ~ water run tp @s ~ ~-0.4 ~

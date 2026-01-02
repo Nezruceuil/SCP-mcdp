@@ -1,0 +1,1 @@
+give @s recovery_compass[custom_data={309:1b},max_stack_size=1,item_name="scp 309",rarity="epic",item_model="scp:309"] 1

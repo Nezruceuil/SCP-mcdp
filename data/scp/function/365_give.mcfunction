@@ -1,0 +1,1 @@
+give @s recovery_compass[attribute_modifiers=[{id:"attack_damage",type:"attack_damage",amount:-0.9,operation:"add_value",slot:"mainhand",display:{type:"default"}},{id:"attack_knockback",type:"attack_knockback",amount:3,operation:"add_value",slot:"mainhand",display:{type:"hidden"}}],item_model="scp:365",item_name="scp 365",rarity="epic",custom_data={365:1b}] 1

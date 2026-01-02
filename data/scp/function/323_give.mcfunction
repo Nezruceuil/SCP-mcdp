@@ -1,0 +1,1 @@
+give @s recovery_compass[item_model="scp:323",item_name="scp 323",rarity="epic",equippable={slot:"head",equip_sound:"block.bone_block.break"},custom_data={323:1b}] 1
