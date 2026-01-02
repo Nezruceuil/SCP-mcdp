@@ -368,3 +368,11 @@ execute as @e[tag=323e] at @s unless entity @e[distance=1..15.5,tag=323a] run ki
 
 execute as @e if items entity @s weapon.mainhand *[custom_data={365:1b}] at @s if block ~ ~ ~ water if block ~ ~-1 ~ water if block ~ ~1 ~ water run tp @s ~ ~-0.4 ~
 execute as @e if items entity @s weapon.offhand *[custom_data={365:1b}] at @s if block ~ ~ ~ water if block ~ ~-1 ~ water if block ~ ~1 ~ water run tp @s ~ ~-0.4 ~
+
+
+#377
+
+scoreboard objectives add 377 dummy
+execute as @e if score @s 377 matches ..-1 run scoreboard players add @s 377 1
+execute as @e if score @s 377 matches -1 run function scp:377_give
+execute as @e if score @s 377 matches ..-1 run title @s actionbar ["restock in: ",{"score":{"name":"@s","objective":"377"}}]
