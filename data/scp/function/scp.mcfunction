@@ -324,15 +324,13 @@ execute as @a[tag=226a] run tag @s remove 226a
 
 
 #291
-execute as @a if items entity @s weapon.mainhand crafting_table run item replace entity @s weapon.mainhand with crafting_table[lore=[{"color":"light_purple","text":"scp 291"}]]
-execute as @a if items entity @s weapon.offhand crafting_table run item replace entity @s weapon.offhand with crafting_table[lore=[{"color":"light_purple","text":"scp 291"}]]
-execute as @a if items entity @s weapon.mainhand crafter run item replace entity @s weapon.mainhand with crafter[lore=[{"color":"light_purple","text":"scp 291"}]]
-execute as @a if items entity @s weapon.offhand crafter run item replace entity @s weapon.offhand with crafter[lore=[{"color":"light_purple","text":"scp 291"}]]
+execute as @e[type=item] if data entity @s {Item:{id:"minecraft:crafting_table"}} unless data entity @s {"minecraft:custom_data":{291:1b}} run data merge entity @s {Item:{id:"minecraft:crafting_table",components:{"minecraft:lore":[{"color":"light_purple","text":"scp 291"}],"minecraft:custom_data":{291:1b}}}}
+execute as @e[type=item] if data entity @s {Item:{id:"minecraft:crafter"}} unless data entity @s {"minecraft:custom_data":{291:1b}} run data merge entity @s {Item:{id:"minecraft:crafter",components:{"minecraft:lore":[{"color":"light_purple","text":"scp 291"}],"minecraft:custom_data":{291:1b}}}}
 
 
 #301
-execute as @a if items entity @s weapon.mainhand ender_pearl run item replace entity @s weapon.mainhand with ender_pearl[lore=[{"color":"light_purple","text":"scp 301"}]]
-execute as @a if items entity @s weapon.offhand ender_pearl run item replace entity @s weapon.offhand with ender_pearl[lore=[{"color":"light_purple","text":"scp 301"}]]
+execute as @e[type=item] if data entity @s {Item:{id:"minecraft:ender_pearl"}} unless data entity @s {"minecraft:custom_data":{301:1b}} run data merge entity @s {Item:{id:"minecraft:ender_pearl",components:{"minecraft:lore":[{"color":"light_purple","text":"scp 301"}],"minecraft:custom_data":{301:1b}}}}
+
 
 
 #308
@@ -376,3 +374,92 @@ scoreboard objectives add 377 dummy
 execute as @e if score @s 377 matches ..-1 run scoreboard players add @s 377 1
 execute as @e if score @s 377 matches -1 run function scp:377_give
 execute as @e if score @s 377 matches ..-1 run title @s actionbar ["restock in: ",{"score":{"name":"@s","objective":"377"}}]
+
+
+#386
+
+execute as @e[type=item] if data entity @s {Item:{id:"minecraft:warped_fungus"}} unless data entity @s {"minecraft:custom_data":{386:1b}} run data merge entity @s {Item:{id:"minecraft:warped_fungus",components:{"minecraft:lore":[{"color":"light_purple","text":"scp 386"}],"minecraft:custom_data":{386:1b}}}}
+execute as @e if items entity @s weapon.mainhand warped_fungus run damage @s 1 sting
+
+
+#396
+
+execute as @e[tag=396a] at @s if entity @e[tag=396,distance=..0.1] run loot spawn ~ ~ ~ fish scp:396 ~ ~ ~
+execute as @e[tag=396a] at @s if entity @e[tag=chair,distance=..0.1] run loot spawn ~ ~ ~ fish scp:396 ~ ~ ~
+execute as @e[tag=396a] at @s if entity @e[tag=396,distance=..0.1] run kill @s
+execute as @e[tag=396a] at @s if entity @e[tag=chair,distance=..0.1] run kill @s
+execute as @e[tag=396a] if entity @e[tag=396a,distance=..0.1] at @s run rotate @s facing entity @p
+execute as @e[tag=aj.396.entity] if entity @e[tag=396a,distance=..0.1] at @s run rotate @s facing entity @p
+execute as @e[tag=396a] if entity @e[tag=396a,distance=..0.1] at @s run rotate @s ~ 0
+execute as @e[tag=aj.396.entity] if entity @e[tag=396a,distance=..0.1] at @s run rotate @s ~ 0
+execute as @e[tag=396a] at @s facing ~ ~ ~ run summon horse ~ ~ ~ {NoGravity:1b,Silent:1b,DeathLootTable:"scp:396",NoAI:1b,Tags:["396","chairs"],active_effects:[{id:"minecraft:invisibility",amplifier:255,duration:-1,show_particles:0b,show_icon:0b,ambient:0b},{id:"regeneration",amplifier:4,duration:-1,show_particles:0b,show_icon:0b,ambient:0b}],attributes:[{id:"minecraft:scale",base:0.6},{id:"max_health",base:3}]}
+execute as @e[tag=396a] at @s run function animated_java:396/summon {args:{variant:"396"}}
+execute as @e[tag=396a] at @s run rotate @n[tag=396] ~ ~
+execute as @e[tag=396a] at @s run kill @s
+
+
+execute as @e[tag=chair1] at @s if entity @e[tag=chair,distance=..0.1] run loot spawn ~ ~ ~ fish scp:chair ~ ~ ~
+execute as @e[tag=chair1] at @s if entity @e[tag=396,distance=..0.1] run loot spawn ~ ~ ~ fish scp:chair ~ ~ ~
+execute as @e[tag=chair1] at @s if entity @e[tag=chair,distance=..0.1] run kill @s
+execute as @e[tag=chair1] at @s if entity @e[tag=396,distance=..0.1] run kill @s
+execute as @e[tag=chair1] if entity @e[tag=chair1,distance=..0.1] at @s run rotate @s facing entity @p
+execute as @e[tag=aj.396.entity] if entity @e[tag=chair1,distance=..0.1] at @s run rotate @s facing entity @p
+execute as @e[tag=chair1] if entity @e[tag=chair1,distance=..0.1] at @s run rotate @s ~ 0
+execute as @e[tag=aj.396.entity] if entity @e[tag=chair1,distance=..0.1] at @s run rotate @s ~ 0
+
+execute as @e[tag=chair1,tag=oak] at @s run summon horse ~ ~ ~ {NoGravity:1b,Silent:1b,DeathLootTable:"scp:chair",NoAI:1b,Tags:["chair","chairs"],active_effects:[{id:"minecraft:invisibility",amplifier:255,duration:-1,show_particles:0b,show_icon:0b,ambient:0b},{id:"regeneration",amplifier:4,duration:-1,show_particles:0b,show_icon:0b,ambient:0b}],attributes:[{id:"minecraft:scale",base:0.6},{id:"max_health",base:3}]}
+execute as @e[tag=chair1,tag=spruce] at @s run summon horse ~ ~ ~ {NoGravity:1b,Silent:1b,DeathLootTable:"scp:chair_spruce",NoAI:1b,Tags:["chair","chairs"],active_effects:[{id:"minecraft:invisibility",amplifier:255,duration:-1,show_particles:0b,show_icon:0b,ambient:0b},{id:"regeneration",amplifier:4,duration:-1,show_particles:0b,show_icon:0b,ambient:0b}],attributes:[{id:"minecraft:scale",base:0.6},{id:"max_health",base:3}]}
+execute as @e[tag=chair1,tag=birch] at @s run summon horse ~ ~ ~ {NoGravity:1b,Silent:1b,DeathLootTable:"scp:chair_birch",NoAI:1b,Tags:["chair","chairs"],active_effects:[{id:"minecraft:invisibility",amplifier:255,duration:-1,show_particles:0b,show_icon:0b,ambient:0b},{id:"regeneration",amplifier:4,duration:-1,show_particles:0b,show_icon:0b,ambient:0b}],attributes:[{id:"minecraft:scale",base:0.6},{id:"max_health",base:3}]}
+execute as @e[tag=chair1,tag=jungle] at @s run summon horse ~ ~ ~ {NoGravity:1b,Silent:1b,DeathLootTable:"scp:chair_jungle",NoAI:1b,Tags:["chair","chairs"],active_effects:[{id:"minecraft:invisibility",amplifier:255,duration:-1,show_particles:0b,show_icon:0b,ambient:0b},{id:"regeneration",amplifier:4,duration:-1,show_particles:0b,show_icon:0b,ambient:0b}],attributes:[{id:"minecraft:scale",base:0.6},{id:"max_health",base:3}]}
+execute as @e[tag=chair1,tag=acacia] at @s run summon horse ~ ~ ~ {NoGravity:1b,Silent:1b,DeathLootTable:"scp:chair_acacia",NoAI:1b,Tags:["chair","chairs"],active_effects:[{id:"minecraft:invisibility",amplifier:255,duration:-1,show_particles:0b,show_icon:0b,ambient:0b},{id:"regeneration",amplifier:4,duration:-1,show_particles:0b,show_icon:0b,ambient:0b}],attributes:[{id:"minecraft:scale",base:0.6},{id:"max_health",base:3}]}
+execute as @e[tag=chair1,tag=dark_oak] at @s run summon horse ~ ~ ~ {NoGravity:1b,Silent:1b,DeathLootTable:"scp:chair_dark_oak",NoAI:1b,Tags:["chair","chairs"],active_effects:[{id:"minecraft:invisibility",amplifier:255,duration:-1,show_particles:0b,show_icon:0b,ambient:0b},{id:"regeneration",amplifier:4,duration:-1,show_particles:0b,show_icon:0b,ambient:0b}],attributes:[{id:"minecraft:scale",base:0.6},{id:"max_health",base:3}]}
+execute as @e[tag=chair1,tag=mangrove] at @s run summon horse ~ ~ ~ {NoGravity:1b,Silent:1b,DeathLootTable:"scp:chair_mangrove",NoAI:1b,Tags:["chair","chairs"],active_effects:[{id:"minecraft:invisibility",amplifier:255,duration:-1,show_particles:0b,show_icon:0b,ambient:0b},{id:"regeneration",amplifier:4,duration:-1,show_particles:0b,show_icon:0b,ambient:0b}],attributes:[{id:"minecraft:scale",base:0.6},{id:"max_health",base:3}]}
+execute as @e[tag=chair1,tag=cherry] at @s run summon horse ~ ~ ~ {NoGravity:1b,Silent:1b,DeathLootTable:"scp:chair_cherry",NoAI:1b,Tags:["chair","chairs"],active_effects:[{id:"minecraft:invisibility",amplifier:255,duration:-1,show_particles:0b,show_icon:0b,ambient:0b},{id:"regeneration",amplifier:4,duration:-1,show_particles:0b,show_icon:0b,ambient:0b}],attributes:[{id:"minecraft:scale",base:0.6},{id:"max_health",base:3}]}
+execute as @e[tag=chair1,tag=pale_oak] at @s run summon horse ~ ~ ~ {NoGravity:1b,Silent:1b,DeathLootTable:"scp:chair_pale_oak",NoAI:1b,Tags:["chair","chairs"],active_effects:[{id:"minecraft:invisibility",amplifier:255,duration:-1,show_particles:0b,show_icon:0b,ambient:0b},{id:"regeneration",amplifier:4,duration:-1,show_particles:0b,show_icon:0b,ambient:0b}],attributes:[{id:"minecraft:scale",base:0.6},{id:"max_health",base:3}]}
+execute as @e[tag=chair1,tag=bamboo] at @s run summon horse ~ ~ ~ {NoGravity:1b,Silent:1b,DeathLootTable:"scp:chair_bamboo",NoAI:1b,Tags:["chair","chairs"],active_effects:[{id:"minecraft:invisibility",amplifier:255,duration:-1,show_particles:0b,show_icon:0b,ambient:0b},{id:"regeneration",amplifier:4,duration:-1,show_particles:0b,show_icon:0b,ambient:0b}],attributes:[{id:"minecraft:scale",base:0.6},{id:"max_health",base:3}]}
+execute as @e[tag=chair1,tag=crimson] at @s run summon horse ~ ~ ~ {NoGravity:1b,Silent:1b,DeathLootTable:"scp:chair_crimson",NoAI:1b,Tags:["chair","chairs"],active_effects:[{id:"minecraft:invisibility",amplifier:255,duration:-1,show_particles:0b,show_icon:0b,ambient:0b},{id:"regeneration",amplifier:4,duration:-1,show_particles:0b,show_icon:0b,ambient:0b}],attributes:[{id:"minecraft:scale",base:0.6},{id:"max_health",base:3}]}
+execute as @e[tag=chair1,tag=warped] at @s run summon horse ~ ~ ~ {NoGravity:1b,Silent:1b,DeathLootTable:"scp:chair_warped",NoAI:1b,Tags:["chair","chairs"],active_effects:[{id:"minecraft:invisibility",amplifier:255,duration:-1,show_particles:0b,show_icon:0b,ambient:0b},{id:"regeneration",amplifier:4,duration:-1,show_particles:0b,show_icon:0b,ambient:0b}],attributes:[{id:"minecraft:scale",base:0.6},{id:"max_health",base:3}]}
+
+execute as @e[tag=chair1,tag=oak] at @s run function animated_java:396/summon {args:{variant:"default"}}
+execute as @e[tag=chair1,tag=spruce] at @s run function animated_java:396/summon {args:{variant:"spruce"}}
+execute as @e[tag=chair1,tag=birch] at @s run function animated_java:396/summon {args:{variant:"birch"}}
+execute as @e[tag=chair1,tag=jungle] at @s run function animated_java:396/summon {args:{variant:"jungle"}}
+execute as @e[tag=chair1,tag=acacia] at @s run function animated_java:396/summon {args:{variant:"acacia"}}
+execute as @e[tag=chair1,tag=dark_oak] at @s run function animated_java:396/summon {args:{variant:"dark_oak"}}
+execute as @e[tag=chair1,tag=mangrove] at @s run function animated_java:396/summon {args:{variant:"mangrove"}}
+execute as @e[tag=chair1,tag=cherry] at @s run function animated_java:396/summon {args:{variant:"cherry"}}
+execute as @e[tag=chair1,tag=pale_oak] at @s run function animated_java:396/summon {args:{variant:"pale_oak"}}
+execute as @e[tag=chair1,tag=bamboo] at @s run function animated_java:396/summon {args:{variant:"bamboo"}}
+execute as @e[tag=chair1,tag=crimson] at @s run function animated_java:396/summon {args:{variant:"crimson"}}
+execute as @e[tag=chair1,tag=warped] at @s run function animated_java:396/summon {args:{variant:"warped"}}
+execute as @e[tag=chair1] at @s run kill @s
+
+execute as @e[tag=chairs] at @s if entity @e[type=!player,distance=0.5..1.7,limit=1,tag=!chairs,tag=!aj.396.entity] if predicate {"condition": "minecraft:random_chance","chance": 0.01} run ride @n[distance=0.5..] mount @s
+execute as @e[tag=chairs] at @s on passengers if entity @s[type=!player] if predicate {"condition": "minecraft:random_chance","chance": 0.001} run ride @s dismount
+execute as @e[tag=chairs] at @s on passengers if entity @s[type=!player] if predicate {"condition": "minecraft:random_chance","chance": 0.014} run ride @s[type=#illager_friends] dismount
+
+execute as @e[tag=aj.396.entity] at @s unless entity @e[distance=..0.1,tag=chairs] run kill @s
+execute as @e[tag=aj.396.entity] at @s if entity @e[tag=396,distance=..0.1] run tag @s add 396
+execute as @e[tag=aj.396.entity] at @s if entity @e[tag=chair,distance=..0.1] run tag @s add chair
+
+execute as @e[tag=396] unless entity @e[tag=396subject1] at @s on passengers if predicate {"condition": "minecraft:random_chance","chance": 0.0001} if entity @s[tag=!396] if entity @e[tag=chair] run tag @s add 396subject1
+execute as @e[tag=396subject1] unless entity @e[tag=396subject2] at @s as @e[tag=chair,limit=1,sort=random,distance=3..] on passengers run tag @s add 396subject2
+
+execute if entity @e[tag=396subject2] as @e[tag=396subject1] at @s on vehicle run tag @s add 396subject1a
+execute if entity @e[tag=396subject2] as @e[tag=396subject2] at @s on vehicle run tag @s add 396subject2a
+
+execute if entity @e[tag=396subject2] as @e[tag=396subject1] at @s as @e[tag=396] run tag @s add 396subject1b
+execute if entity @e[tag=396subject2] as @e[tag=396subject2] at @s as @e[tag=chair] run tag @s add 396subject2b
+
+execute if entity @e[tag=396subject2b] as @e[tag=396subject1] at @s run ride @s dismount
+execute if entity @e[tag=396subject2b] as @e[tag=396subject2] at @s run ride @s dismount
+
+execute if entity @e[tag=396subject2b] as @e[tag=396subject1] at @s run ride @s mount @n[tag=396subject2a]
+execute if entity @e[tag=396subject2b] as @e[tag=396subject2] at @s run ride @s mount @n[tag=396subject1a]
+
+execute if entity @e[tag=396subject2b] run tag @e remove 396subject1
+execute if entity @e[tag=396subject2b] run tag @e remove 396subject1a
+execute if entity @e[tag=396subject2b] run tag @e remove 396subject2
+execute if entity @e[tag=396subject2b] run tag @e remove 396subject2a
+execute if entity @e[tag=396subject2b] run tag @e remove 396subject1b
+execute if entity @e[tag=396subject2b] run tag @e remove 396subject2b

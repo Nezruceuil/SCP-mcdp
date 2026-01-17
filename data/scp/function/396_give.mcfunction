@@ -1,0 +1,1 @@
+give @s blaze_spawn_egg[entity_data={id:"minecraft:armor_stand",Tags:["396a"]},item_name="scp 396",rarity=epic,max_stack_size=1] 1

@@ -1,0 +1,12 @@
+loot give @s fish scp:chair ~ ~ ~
+loot give @s fish scp:chair_acacia ~ ~ ~
+loot give @s fish scp:chair_bamboo ~ ~ ~
+loot give @s fish scp:chair_birch ~ ~ ~
+loot give @s fish scp:chair_cherry ~ ~ ~
+loot give @s fish scp:chair_crimson ~ ~ ~
+loot give @s fish scp:chair_dark_oak ~ ~ ~
+loot give @s fish scp:chair_jungle ~ ~ ~
+loot give @s fish scp:chair_mangrove ~ ~ ~
+loot give @s fish scp:chair_pale_oak ~ ~ ~
+loot give @s fish scp:chair_spruce ~ ~ ~
+loot give @s fish scp:chair_warped ~ ~ ~

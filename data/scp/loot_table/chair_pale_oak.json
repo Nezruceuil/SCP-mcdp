@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "pale_oak_chair",
+                "minecraft:entity_data": {
+                  "id": "minecraft:armor_stand",
+                  "Invulnerable": true,
+                  "Tags": [
+                    "chair1",
+                    "pale_oak"
+                  ]
+                },
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ],
+          "name": "minecraft:dolphin_spawn_egg"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:entities/pig"
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1",
+    "21",
+    "33"
+  ],
+  "key": {
+    "1": "minecraft:pale_oak_planks",
+    "2": "minecraft:pale_oak_slab",
+    "3": "minecraft:pale_oak_fence"
+  },
+  "result": {
+    "id": "minecraft:dolphin_spawn_egg",
+    "components": {
+      "minecraft:item_name": "pale_oak_chair",
+      "minecraft:max_stack_size": 1,
+      "minecraft:entity_data": {
+        "id": "minecraft:armor_stand",
+        "Invulnerable": false,
+        "Tags": [
+          "chair1",
+          "pale_oak"
+        ]
+      }
+    }
+  }
+}

@@ -1,6 +1,8 @@
 {
-  "pack": {
-    "description": "SCP",
-    "pack_format": 81
-  }
+	"pack": {
+		"description": "SCP",
+		"pack_format": 81,
+		"min_format": 88,
+		"max_format": 9999999
+	}
 }

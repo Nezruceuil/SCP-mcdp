@@ -1,3 +1,4 @@
 {
-  "values": ["scp:scp","scp:advancements","scp:structure"]
+	"replace": false,
+	"values": ["scp:advancements", "scp:scp", "scp:structure", "animated_java:global/on_tick"]
 }

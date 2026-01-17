@@ -1,0 +1,971 @@
+{
+	"meta": {
+		"format": "animated-java:format/blueprint",
+		"format_version": "1.8.1",
+		"uuid": "2cdd488e-4d4c-50ae-223e-2a448bd296b7",
+		"save_location": "/Users/Mark/Library/Application Support/minecraft/saves/SCP/datapacks/SCP/data/minecraft/tags/function/396.ajblueprint",
+		"last_used_export_namespace": "396"
+	},
+	"resolution": {
+		"width": 128,
+		"height": 128
+	},
+	"blueprint_settings": {
+		"export_namespace": "396",
+		"show_render_box": true,
+		"render_box": [48, 48],
+		"resource_pack": "/Users/Mark/Library/Application Support/minecraft/resourcepacks/SCP ResourcePack",
+		"data_pack": "/Users/Mark/Library/Application Support/minecraft/saves/SCP/datapacks/SCP"
+	},
+	"elements": [
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [6, 0, 6],
+			"to": [8, 11, 8],
+			"autouv": 0,
+			"color": 4,
+			"origin": [7, 0, 7],
+			"faces": {
+				"north": {
+					"uv": [36, 49, 38, 60],
+					"texture": 3
+				},
+				"east": {
+					"uv": [39, 49, 41, 60],
+					"texture": 3
+				},
+				"south": {
+					"uv": [42, 49, 44, 60],
+					"texture": 3
+				},
+				"west": {
+					"uv": [45, 49, 47, 60],
+					"texture": 3
+				},
+				"up": {
+					"uv": [29, 40, 27, 38],
+					"texture": 3
+				},
+				"down": {
+					"uv": [32, 38, 30, 40],
+					"texture": 3
+				}
+			},
+			"type": "cube",
+			"uuid": "1ada673d-9a9a-75d1-501c-b65573c561a7"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-8, 0, 6],
+			"to": [-6, 11, 8],
+			"autouv": 0,
+			"color": 4,
+			"origin": [-7, 0, 7],
+			"faces": {
+				"north": {
+					"uv": [0, 49, 2, 60],
+					"texture": 3
+				},
+				"east": {
+					"uv": [3, 49, 5, 60],
+					"texture": 3
+				},
+				"south": {
+					"uv": [6, 49, 8, 60],
+					"texture": 3
+				},
+				"west": {
+					"uv": [9, 49, 11, 60],
+					"texture": 3
+				},
+				"up": {
+					"uv": [23, 37, 21, 35],
+					"texture": 3
+				},
+				"down": {
+					"uv": [26, 35, 24, 37],
+					"texture": 3
+				}
+			},
+			"type": "cube",
+			"uuid": "2fe1c4fa-ef5d-37e7-5d38-a5f56614fe04"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-8, 0, -8],
+			"to": [-6, 11, -6],
+			"autouv": 0,
+			"color": 4,
+			"origin": [-7, 0, -7],
+			"faces": {
+				"north": {
+					"uv": [49, 24, 51, 35],
+					"texture": 3
+				},
+				"east": {
+					"uv": [27, 49, 29, 60],
+					"texture": 3
+				},
+				"south": {
+					"uv": [30, 49, 32, 60],
+					"texture": 3
+				},
+				"west": {
+					"uv": [33, 49, 35, 60],
+					"texture": 3
+				},
+				"up": {
+					"uv": [23, 40, 21, 38],
+					"texture": 3
+				},
+				"down": {
+					"uv": [26, 38, 24, 40],
+					"texture": 3
+				}
+			},
+			"type": "cube",
+			"uuid": "cc3d3a30-dc8d-0fb5-473b-a56ac205a002"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [6, 0, -8],
+			"to": [8, 11, -6],
+			"autouv": 0,
+			"color": 4,
+			"origin": [7, 0, -7],
+			"faces": {
+				"north": {
+					"uv": [12, 49, 14, 60],
+					"texture": 3
+				},
+				"east": {
+					"uv": [49, 12, 51, 23],
+					"texture": 3
+				},
+				"south": {
+					"uv": [21, 49, 23, 60],
+					"texture": 3
+				},
+				"west": {
+					"uv": [24, 49, 26, 60],
+					"texture": 3
+				},
+				"up": {
+					"uv": [29, 37, 27, 35],
+					"texture": 3
+				},
+				"down": {
+					"uv": [32, 35, 30, 37],
+					"texture": 3
+				}
+			},
+			"type": "cube",
+			"uuid": "ca204ff9-fb99-6c68-bed5-d46646ba707a"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-8, 11, -8],
+			"to": [8, 13, 8],
+			"autouv": 0,
+			"color": 4,
+			"origin": [7, 11, -7],
+			"faces": {
+				"north": {
+					"uv": [21, 46, 37, 48],
+					"texture": 3
+				},
+				"east": {
+					"uv": [38, 46, 54, 48],
+					"texture": 3
+				},
+				"south": {
+					"uv": [49, 0, 65, 2],
+					"texture": 3
+				},
+				"west": {
+					"uv": [49, 3, 65, 5],
+					"texture": 3
+				},
+				"up": {
+					"uv": [16, 34, 0, 18],
+					"texture": 3
+				},
+				"down": {
+					"uv": [33, 18, 17, 34],
+					"texture": 3
+				}
+			},
+			"type": "cube",
+			"uuid": "8e10e619-09ea-b2c4-802c-910957572787"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-8, 13, 6],
+			"to": [8, 30, 8],
+			"autouv": 0,
+			"color": 4,
+			"origin": [7, 13, -7],
+			"faces": {
+				"north": {
+					"uv": [0, 0, 16, 17],
+					"texture": 3
+				},
+				"east": {
+					"uv": [15, 35, 17, 52],
+					"texture": 3
+				},
+				"south": {
+					"uv": [17, 0, 33, 17],
+					"texture": 3
+				},
+				"west": {
+					"uv": [18, 35, 20, 52],
+					"texture": 3
+				},
+				"up": {
+					"uv": [65, 8, 49, 6],
+					"texture": 3
+				},
+				"down": {
+					"uv": [65, 9, 49, 11],
+					"texture": 3
+				}
+			},
+			"type": "cube",
+			"uuid": "b3468d7c-039a-4d91-df9a-a5c5414f9614"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-7, 13, -7],
+			"to": [7, 14, 6],
+			"autouv": 0,
+			"color": 4,
+			"origin": [7, 13, -7],
+			"faces": {
+				"north": {
+					"uv": [49, 40, 63, 41],
+					"texture": 1
+				},
+				"east": {
+					"uv": [49, 44, 62, 45],
+					"texture": 1
+				},
+				"south": {
+					"uv": [49, 42, 63, 43],
+					"texture": 1
+				},
+				"west": {
+					"uv": [52, 12, 65, 13],
+					"texture": 1
+				},
+				"up": {
+					"uv": [48, 45, 34, 32],
+					"texture": 1
+				},
+				"down": {
+					"uv": [14, 35, 0, 48],
+					"texture": 1
+				}
+			},
+			"type": "cube",
+			"uuid": "612dd684-eeb9-2102-ff04-d5abc834a80a"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-7, 14, 5],
+			"to": [7, 29, 6],
+			"autouv": 0,
+			"color": 4,
+			"origin": [7, 14, -7],
+			"faces": {
+				"north": {
+					"uv": [34, 0, 48, 15],
+					"texture": 1
+				},
+				"east": {
+					"uv": [48, 49, 49, 64],
+					"texture": 1
+				},
+				"south": {
+					"uv": [34, 16, 48, 31],
+					"texture": 1
+				},
+				"west": {
+					"uv": [50, 49, 51, 64],
+					"texture": 1
+				},
+				"up": {
+					"uv": [63, 37, 49, 36],
+					"texture": 1
+				},
+				"down": {
+					"uv": [63, 38, 49, 39],
+					"texture": 1
+				}
+			},
+			"type": "cube",
+			"uuid": "1fa9a147-79ac-c691-f0bf-346cd96258d7"
+		}
+	],
+	"outliner": [
+		{
+			"name": "bone",
+			"origin": [7, 14, -7],
+			"color": 0,
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			},
+			"uuid": "4636ace7-077e-e259-6248-998454bf06b6",
+			"export": true,
+			"mirror_uv": false,
+			"isOpen": false,
+			"locked": false,
+			"visibility": true,
+			"autouv": 0,
+			"selected": false,
+			"children": [
+				"8e10e619-09ea-b2c4-802c-910957572787",
+				"2fe1c4fa-ef5d-37e7-5d38-a5f56614fe04",
+				"ca204ff9-fb99-6c68-bed5-d46646ba707a",
+				"b3468d7c-039a-4d91-df9a-a5c5414f9614",
+				"cc3d3a30-dc8d-0fb5-473b-a56ac205a002",
+				"1ada673d-9a9a-75d1-501c-b65573c561a7"
+			]
+		},
+		{
+			"name": "carpet",
+			"origin": [7, 13, -7],
+			"color": 0,
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			},
+			"uuid": "725bfdfd-168d-d49f-d181-626162d7cc2c",
+			"export": true,
+			"mirror_uv": false,
+			"isOpen": false,
+			"locked": false,
+			"visibility": true,
+			"autouv": 0,
+			"selected": false,
+			"children": ["612dd684-eeb9-2102-ff04-d5abc834a80a", "1fa9a147-79ac-c691-f0bf-346cd96258d7"]
+		}
+	],
+	"textures": [
+		{
+			"path": "/Users/Mark/Library/Application Support/minecraft/resourcepacks/SCP ResourcePack/assets/animated_java/textures/blueprint/396.png",
+			"name": "396.png",
+			"folder": "block",
+			"namespace": "",
+			"id": "0",
+			"group": "",
+			"width": 128,
+			"height": 128,
+			"uv_width": 128,
+			"uv_height": 128,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": true,
+			"saved": true,
+			"uuid": "7a50e51a-e5b1-d0cf-8f70-d8cde6731400",
+			"relative_path": "../../../../../../../../resourcepacks/SCP ResourcePack/assets/animated_java/textures/blueprint/396.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAABIpJREFUeF7tnT2W0zAURpUdAAVQQgNLYFsshW2xBGigBApgBwNiHMb4ZBg/WTn3yb5pMkWkz3r3IvknCqebUm7KhteplFOPPt42Hse7TvkbSjB00y7wegnwKljKj6UUBQgWbfHxdAI8WTme76WUswArm/ixCxVIKcCXB1A9L6XMBegxAx3VjrQCPCulvP89xT+ayPwspbwstycKCtBP19QC1GF+mMb6eHq/JEC/chyvp7QCfC6lvJl4fJveP5VSXjgDdLU0tQB1pGcJ6nJQXwrQlX+fa/geJ2H1PkC9DKxXAfUksM4Adc2vr6fTe5XgkgB9S3Ks3tLOAKeJw4/p/fX0/tUloKuhqQWoa/78KqAuBwrQlX/eJSAyA/QtybF6SzsDRM4Bzucg9blEyzOFejv5WNjvRptagOhVQBXgqCBbx51agOh9AAWIa5BGgPih37WYLwFb+jli2zQCtKzdFdj8cbAzQFzhNGumAsTh9WjhDNCjigP3oQADw+tx6ArQo4oD96EAA8PrcegK0KOKA/exCwEGrj9+6LsQwBtB7R4pQHvtdtFSAXaBsX0QCtBeu120VIBdYGwfhAK0124XLRVgFxjbB5FGgPYh/Nku9meLu4+D41VMI4CPg+PwerRIJcB8Y0jdHFpfa/YGOgO0q5DqCyFLAaK7g10C4iI0fY26xiy/ijX/Vxj9u/a33BoWmQHiw7bFuQJpBYjsDt5y/nB0Fa4iQEtRL20Orf2s2R3ckmeb2wpcRYAeS0DLzqAoVM8ZEgvg3sCozm2fv8oM0HIoyyWgCrB2d7DnAC0Vv+IS0HI4SwH+18fyR6Ja8myTWIA1cOY/E+cMsKZilz+TbgmIDMUfioxUawABWoZTb0i1zABH/k2AeZ2bivfQncAWkLZhKnAVAXr8aliPPpiSjpWqAGPx6n60m54G3nfHr/tR2uHVKvD3+wDz//hhpL/rCeD5RNATu7gnChCv2a5aKMCucMYHs0mA++KiTwO3fN4lIA79n/sAW4qvANuKn6G1M0AGCuAxKABY/AzRCpCBAngMCgAWP0O0AmSgAB6DAoDFzxC96VlAhgF4H2AbBQXYVr/hWyvA8Ai3DUABttVv+NbDCzA8AXgACgADoOMVgCYA5ysADICOVwCaAJyvADAAOl4BaAJwvgLAAOh4BaAJwPkKAAOg4xWAJgDnKwAMgI5XAJoAnK8AMAA6XgFoAnC+AsAA6HgFoAnA+QoAA6DjFYAmAOcrAAyAjlcAmgCcrwAwADpeAWgCcL4CwADoeAWgCcD5CgADoOMVgCYA5ysADICOVwCaAJyvADAAOl4BaAJwvgLAAOh4BaAJwPkKAAOg4xWAJgDnKwAMgI5XAJoAnK8AMAA6XgFoAnC+AsAA6HgFoAnA+QoAA6DjFYAmAOcrAAyAjlcAmgCcrwAwADpeAWgCcL4CwADoeAWgCcD5CgADoOMVgCYA5ysADICOVwCaAJyvADAAOl4BaAJwvgLAAOh4BaAJwPkKAAOg4xWAJgDnKwAMgI5XAJoAnK8AMAA6XgFoAnC+AsAA6PhfWSuKrh3x5vQAAAAASUVORK5CYII="
+		},
+		{
+			"path": "/Users/Mark/Library/Application Support/minecraft/resourcepacks/SCP ResourcePack/assets/animated_java/textures/blueprint/chair.png",
+			"name": "chair.png",
+			"folder": "block",
+			"namespace": "",
+			"id": "1",
+			"group": "",
+			"width": 128,
+			"height": 128,
+			"uv_width": 128,
+			"uv_height": 128,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": true,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": true,
+			"saved": true,
+			"uuid": "5b710ff8-57a9-63ee-b051-2a521eaa0cb0",
+			"layers": [
+				{
+					"name": "layer",
+					"offset": [0, 0],
+					"scale": [1, 1],
+					"opacity": 100,
+					"visible": true,
+					"blend_mode": "default",
+					"width": 128,
+					"height": 128,
+					"data_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAABN1JREFUeF7tnL1uFDEYRZ0Oqggh0dAAZWoqeIFIaenCgyAeAPEg0KWNxAtARZ0SaGiQEEoFHci7O8lktUvGHu8ce+dMs1E09nd971l7dv4OXj8Nf8OI7c3ncFCij/DiQ56Os+My9Ud40HLTIuYVA+DugzQvf/8IQQDSPFvbuz4ADh8NG9DltxBWAAxr4F6bHKgTgJ8X/0/r/lEIPQCKzEAz5aNeAB4+D+HiXQhPTpbRfDkP4fDx8m8BKIZr3QDEYf75tRxsf1ZYA6CYGzPsqF4ALr+GcPRyGcn3j8vP+L84CzgDFEO1bgDiMDsI4nIQNwEoFn7sqG4AujU/Hg/ELUKwAYCijsyss3oB6IKI033c7ty7Xg5cAophWjcAcc3v/wqIy0E8HhCAmQAQhzlgBijmxgw7qncG6I74Yyi3HAN0J4LidYlw8j79msL56cEMs18MuW4AEn8FLABwS3KgbgASzwMIQFL2lc0A6dqvWtxYAkb0M8em9cwAOWt3TOz89GoMzgDpCNezZgpAenoFWjgDFDCx5S4EoOX0CmgXgAImttyFALScXgHtAlDAxJa72AsAWg6A1r4XAHgiKB8jAcj3bi9aCsBexJg/CAHI924vWgrAXsSYPwgByPduL1oKwF7EmD+IegDIH0PwZ2C+efUAUOD9AN4PkA5CXQDE9wPEx8Pjc4DdjaADng10BkgPvmtRzw0hcQZYByDx6WBngHQQ8m6jjnXWbsXqfwuH/P322fLVNK8+re7k3QRA3GHADJA+bFtczwCFbsUaEnp/n1sBSHg6OOtZgBXEc0dhJzNAlqnrM0AEIG4Dng7OqmejhQM7AWDbNz15Bhj6dPCIWWzuHNQLQJeMzwbulNGdAJCleH0JiJ0MfDrYY4Asx3e3BGTJ2QTAto58R1CWxZsa1TkDDBle/z2BHgMMcWzjPvUBkDIUXxSZ4lYDAOQM5+w4D+IZvxOgb3OeeauTKNtO/uTkaBvGgZ0AUOLVrSX6YCxtq6oAtJVXcbWjrga6BBTPY/IOb7xcIfWCzi72718kGtL/4iRQPKDrPie3sO2CAtB2fqPVC8BoC9vuYBQA24Y+ZOreto9LwLRACcC0fldXTQCqi2RaQQIwrd/VVROA6iKZVpAATOt3ddUEoLpIphUkANP6XV21UdcCqhiNp4JHxSAAo+xrv7EAtJ/hqBEIwCj72m/cPgDtZ4COQABQ+/niAsBngCoQANR+vrgA8BmgCgQAtZ8vLgB8BqgCAUDt54sLAJ8BqkAAUPv54gLAZ4AqEADUfr64APAZoAoEALWfLy4AfAaoAgFA7eeLCwCfAapAAFD7+eICwGeAKhAA1H6+uADwGaAKBAC1ny8uAHwGqAIBQO3niwsAnwGqQABQ+/niAsBngCoQANR+vrgA8BmgCgQAtZ8vLgB8BqgCAUDt54sLAJ8BqkAAUPv54gLAZ4AqEADUfr64APAZoAoEALWfLy4AfAaoAgFA7eeLCwCfAapAAFD7+eICwGeAKhAA1H6+uADwGaAKBAC1ny8uAHwGqAIBQO3niwsAnwGqQABQ+/niAsBngCoQANR+vrgA8BmgCgQAtZ8vLgB8BqgCAUDt54sLAJ8BqkAAUPv54gLAZ4AqEADUfr64APAZoAoEALWfLy4AfAaoAgFA7eeL/wPPOX7Me3uR+QAAAABJRU5ErkJggg=="
+				}
+			],
+			"relative_path": "../../../../../../../../resourcepacks/SCP ResourcePack/assets/animated_java/textures/blueprint/chair.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAABN1JREFUeF7tnL1uFDEYRZ0Oqggh0dAAZWoqeIFIaenCgyAeAPEg0KWNxAtARZ0SaGiQEEoFHci7O8lktUvGHu8ce+dMs1E09nd971l7dv4OXj8Nf8OI7c3ncFCij/DiQ56Os+My9Ud40HLTIuYVA+DugzQvf/8IQQDSPFvbuz4ADh8NG9DltxBWAAxr4F6bHKgTgJ8X/0/r/lEIPQCKzEAz5aNeAB4+D+HiXQhPTpbRfDkP4fDx8m8BKIZr3QDEYf75tRxsf1ZYA6CYGzPsqF4ALr+GcPRyGcn3j8vP+L84CzgDFEO1bgDiMDsI4nIQNwEoFn7sqG4AujU/Hg/ELUKwAYCijsyss3oB6IKI033c7ty7Xg5cAophWjcAcc3v/wqIy0E8HhCAmQAQhzlgBijmxgw7qncG6I74Yyi3HAN0J4LidYlw8j79msL56cEMs18MuW4AEn8FLABwS3KgbgASzwMIQFL2lc0A6dqvWtxYAkb0M8em9cwAOWt3TOz89GoMzgDpCNezZgpAenoFWjgDFDCx5S4EoOX0CmgXgAImttyFALScXgHtAlDAxJa72AsAWg6A1r4XAHgiKB8jAcj3bi9aCsBexJg/CAHI924vWgrAXsSYPwgByPduL1oKwF7EmD+IegDIH0PwZ2C+efUAUOD9AN4PkA5CXQDE9wPEx8Pjc4DdjaADng10BkgPvmtRzw0hcQZYByDx6WBngHQQ8m6jjnXWbsXqfwuH/P322fLVNK8+re7k3QRA3GHADJA+bFtczwCFbsUaEnp/n1sBSHg6OOtZgBXEc0dhJzNAlqnrM0AEIG4Dng7OqmejhQM7AWDbNz15Bhj6dPCIWWzuHNQLQJeMzwbulNGdAJCleH0JiJ0MfDrYY4Asx3e3BGTJ2QTAto58R1CWxZsa1TkDDBle/z2BHgMMcWzjPvUBkDIUXxSZ4lYDAOQM5+w4D+IZvxOgb3OeeauTKNtO/uTkaBvGgZ0AUOLVrSX6YCxtq6oAtJVXcbWjrga6BBTPY/IOb7xcIfWCzi72718kGtL/4iRQPKDrPie3sO2CAtB2fqPVC8BoC9vuYBQA24Y+ZOreto9LwLRACcC0fldXTQCqi2RaQQIwrd/VVROA6iKZVpAATOt3ddUEoLpIphUkANP6XV21UdcCqhiNp4JHxSAAo+xrv7EAtJ/hqBEIwCj72m/cPgDtZ4COQABQ+/niAsBngCoQANR+vrgA8BmgCgQAtZ8vLgB8BqgCAUDt54sLAJ8BqkAAUPv54gLAZ4AqEADUfr64APAZoAoEALWfLy4AfAaoAgFA7eeLCwCfAapAAFD7+eICwGeAKhAA1H6+uADwGaAKBAC1ny8uAHwGqAIBQO3niwsAnwGqQABQ+/niAsBngCoQANR+vrgA8BmgCgQAtZ8vLgB8BqgCAUDt54sLAJ8BqkAAUPv54gLAZ4AqEADUfr64APAZoAoEALWfLy4AfAaoAgFA7eeLCwCfAapAAFD7+eICwGeAKhAA1H6+uADwGaAKBAC1ny8uAHwGqAIBQO3niwsAnwGqQABQ+/niAsBngCoQANR+vrgA8BmgCgQAtZ8vLgB8BqgCAUDt54sLAJ8BqkAAUPv54gLAZ4AqEADUfr64APAZoAoEALWfLy4AfAaoAgFA7eeL/wPPOX7Me3uR+QAAAABJRU5ErkJggg=="
+		},
+		{
+			"path": "/Users/Mark/Downloads/acacia_planks.png",
+			"name": "acacia_planks.png",
+			"folder": "",
+			"namespace": "",
+			"id": "2",
+			"group": "",
+			"width": 16,
+			"height": 16,
+			"uv_width": 128,
+			"uv_height": 128,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": true,
+			"saved": true,
+			"uuid": "7ebe4086-3990-a62c-affe-19e804b8962b",
+			"relative_path": "../../../../../../../../../../../Downloads/acacia_planks.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAVZJREFUOE91k7FKA0EQhmcllwvBQ0FESGeqQBpJY2lpa2VnZe175BXsfAFfIKUPknSBkAiGlZC9E0/+if8yt57b3O3s7uw/3/zrZo/XtS8rKbqZ9Po9Scd+t/83vnj/FIcEOIQkGBsfJO9mUuRHmpSD64wtfdAl9/owqdONmOOAD98NQUiKwf2q4PluXO++VIT0O06/mIfqcDjPDocwx7+N419LQO3z1VaGFyeNG9MYeLAUqBsUebMEyoZUbAhlFXlY6ZaLe7m/Uv2ExhsI9PLs+A9Iy8ZNb0eagLWCg2XA01wnK+6JDLBgazw/LeLNbV5ADK3UBDSSJZi2kVz41c6Ulbi3p5s6pWsTsfcR3K830AFVYBm0+YB8yIaeYMKoAAG+BSjCwA3WG+sPL2BjmaiVbY/pcVsr5KZ8ogIkYF+tF2gk+qDtbSCJMrB+tzXzFvbcvgWu/QAW+AAgud9KfQAAAABJRU5ErkJggg=="
+		},
+		{
+			"path": "/Users/Mark/Downloads/oak_planks.png",
+			"name": "oak_planks.png",
+			"folder": "",
+			"namespace": "",
+			"id": "3",
+			"group": "",
+			"width": 16,
+			"height": 16,
+			"uv_width": 128,
+			"uv_height": 128,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": true,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": true,
+			"saved": false,
+			"uuid": "e614d387-4fa4-e4e3-e9ac-65356b5d6f9c",
+			"layers": [
+				{
+					"name": "layer",
+					"offset": [0, 0],
+					"scale": [1, 1],
+					"opacity": 100,
+					"visible": true,
+					"blend_mode": "default",
+					"width": 16,
+					"height": 16,
+					"data_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAB9JREFUOE9jZKAQMFKon2HUAIbRMGAYDQNQPhr4vAAAJpgAEX/anFwAAAAASUVORK5CYII="
+				},
+				{
+					"name": "selection",
+					"offset": [0, 0],
+					"scale": [1, 1],
+					"opacity": 100,
+					"visible": true,
+					"blend_mode": "default",
+					"width": 16,
+					"height": 16,
+					"data_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAVlJREFUOE91U8FKAzEUTJCC21ZZVkR7KcVe+xN+gODFs+ClP+An9O5FvImf4LVn/8MiQtmKsuTQdgWRLfPqlNm05pLk5WXyZt7Ej++vq/Jn6ZJG0zWTPRePZfn7b3zy9u48AHAJIBj59MsladulrX0D5eA5Y3ko7Mg/311VcSL2uBAW37WCAIrBfKvg4fa8mhXr10+z9YvYfxQLW59kLZuxx1rjWBsFcH/NP12/c1x7MY5BD1JBdZ00q1Ng2SgVCWWYb/TQ0lUX/zS6MBEpGl+goGe97paQqo0fXg4MgFyhg2rA2zynVszZaIAD5Xh0eLDlCQ0gF600ABpJE+I2UhfO5p0wd/7l8aaK1VUg9p4x8kcHrALVYJcPqA+1oScIaBWg30DkX0BF1oVQ1LxBX+j/MCtrj+lx5Qpw4/z36bTVBkBe6gUaiT7Y9TcAahqo35UzebLn+hd4tgJnUgM/K1gwfwAAAABJRU5ErkJggg=="
+				}
+			],
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAVlJREFUOE91U8FKAzEUTJCC21ZZVkR7KcVe+xN+gODFs+ClP+An9O5FvImf4LVn/8MiQtmKsuTQdgWRLfPqlNm05pLk5WXyZt7Ej++vq/Jn6ZJG0zWTPRePZfn7b3zy9u48AHAJIBj59MsladulrX0D5eA5Y3ko7Mg/311VcSL2uBAW37WCAIrBfKvg4fa8mhXr10+z9YvYfxQLW59kLZuxx1rjWBsFcH/NP12/c1x7MY5BD1JBdZ00q1Ng2SgVCWWYb/TQ0lUX/zS6MBEpGl+goGe97paQqo0fXg4MgFyhg2rA2zynVszZaIAD5Xh0eLDlCQ0gF600ABpJE+I2UhfO5p0wd/7l8aaK1VUg9p4x8kcHrALVYJcPqA+1oScIaBWg30DkX0BF1oVQ1LxBX+j/MCtrj+lx5Qpw4/z36bTVBkBe6gUaiT7Y9TcAahqo35UzebLn+hd4tgJnUgM/K1gwfwAAAABJRU5ErkJggg==",
+			"relative_path": "../../../../../../../../../../../Downloads/oak_planks.png"
+		},
+		{
+			"path": "/Users/Mark/Downloads/bamboo_planks.png",
+			"name": "bamboo_planks.png",
+			"folder": "",
+			"namespace": "",
+			"id": "4",
+			"group": "",
+			"width": 16,
+			"height": 16,
+			"uv_width": 128,
+			"uv_height": 128,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": true,
+			"saved": true,
+			"uuid": "346f368c-6036-8af4-d6ff-ac0dc535ce12",
+			"relative_path": "../../../../../../../../../../../Downloads/bamboo_planks.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAV9JREFUOE91k7FKA0EQhmeNGu5iGmsR0qr4AHaWgoJP4AP4ELa2aX0DwcrKIp2VhZ2VjSmSCIKQYHJ33Jmw8s/xL5PF22ZuZ+Z25/9m1j09nHkRkU66BSNZ/qv2qNeT4dc47BnXoMlz789XekCa7jAms+mn7O0fy2L+rb48X6hljt27t8Glz/KVJnTSltrxrNQKkFiVP+Hg+uY6l8v1b060giRpq68oSrWHB7vyMcxCIv02Bp8b3J/rAVjdxKmdF7WLe8bhX7ZWWt1kMtI8N3q99tTUpBN+5kCS5eNeHi88tEMbGfBG6q0268q2l16m1XKNj7u7PfVNui0TckKu5aMV/KeNDBCzLMiH8TAHsTar27YtngWtABoxgbb30G+1k4+dA/iUAbXGvefNMSM7EzoHcf/xY7u7Ecjjg/TZfx7eOAcxA8to7S2AAZLtDFid5BAzChXgLcTvwPa8qf/k9ge1rRe8czaQeQAAAABJRU5ErkJggg=="
+		},
+		{
+			"path": "/Users/Mark/Downloads/birch_planks.png",
+			"name": "birch_planks.png",
+			"folder": "",
+			"namespace": "",
+			"id": "5",
+			"group": "",
+			"width": 16,
+			"height": 16,
+			"uv_width": 128,
+			"uv_height": 128,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": true,
+			"saved": true,
+			"uuid": "5038669f-c5b5-f3ef-5586-dce61cc37eb6",
+			"relative_path": "../../../../../../../../../../../Downloads/birch_planks.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAVRJREFUOE91U7FOwzAQPQ9Akw6JBEM7VYKJz+Ij2oGdCfELsHZipWu3SnxAJpC6QMdmqBNaJKN36TOXpvVin+/87u7dsyvmD6H0G8nSvkjak87y9cn74rMUBwA8AgjW1+pX0iRInp01oPtFP++W32v1uMXbfTgMhI0H63LXKgigWIzXCl5fJqHalOpI+pnusH+qrZ4vknPdYeNs73FuWkh7svxYyehm0MrYufN1bBXVjYZ5uwWWjVIR4CsX+bClW17cbDpWEkkaySKht9dNW5Zoy417frxTAPYKHiwHfEw/uWJM5EADTY/Z1WWLj47ha8EoFSAKyUQdjpG8cNd8lRNXvD8Fm/nU7IlNPyagFVgOjumA/JAbaoKAWoHOe5j/ax76F9EMVhtRF+Z/qJTtjKlx26uC7/8LZR4rAAD7slqgkKiDY38DIMqB1bvtmVk4c/sX6PsDuQYB6B3XwmYAAAAASUVORK5CYII="
+		},
+		{
+			"path": "/Users/Mark/Downloads/cherry_planks.png",
+			"name": "cherry_planks.png",
+			"folder": "",
+			"namespace": "",
+			"id": "6",
+			"group": "",
+			"width": 16,
+			"height": 16,
+			"uv_width": 128,
+			"uv_height": 128,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": true,
+			"saved": true,
+			"uuid": "b057ff47-220a-e026-d94b-d06e83f87802",
+			"relative_path": "../../../../../../../../../../../Downloads/cherry_planks.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAVNJREFUOE91k71OAzEQhMcScKcEJaFKlKel4UHoaKiggg6JBomHoLlLChAgcvIFJKNZe32bOHFz/rvx7rezrn16DPA9UFdAPUIxfHd0f9s0cCLAQREA2493nI7P4SoKVoNeOte98PUtZ659uA/FRf7oe4Q+iuoQUY4kLBG83VyHv00n+yfjmALXn6u1zGeLuXy55tzucx5TqEcI6xXcfLHzYrFHHikVRuemk70UUtgMlRd+Nz8DDxN6fsX3cM3drUDM0BRWAnq2XBYgLRv3enUpAporOVgG+reeKyu9kxnEUg45Ynaxw6NY+A4sZRRQI9lbe2VULvrlVTJy7ctzsC8frX0S13NWQCKwDA75QPkoG/VENhcjkHpPJ4PnyQKILxhvZF+Y/ohWNjXOHk9ekBJTXCCnpjOlFoGclzZQAkhI2QcHekPEycD63easeWrNbS/o2T9ldfapBwLg9wAAAABJRU5ErkJggg=="
+		},
+		{
+			"path": "/Users/Mark/Downloads/crimson_planks.png",
+			"name": "crimson_planks.png",
+			"folder": "",
+			"namespace": "",
+			"id": "7",
+			"group": "",
+			"width": 16,
+			"height": 16,
+			"uv_width": 128,
+			"uv_height": 128,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": true,
+			"saved": true,
+			"uuid": "2ed51c0d-8100-83f2-f626-fd75774d1aad",
+			"relative_path": "../../../../../../../../../../../Downloads/crimson_planks.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAVFJREFUOE91U7FqAkEU3CWXS1RQJBYWwYCNEAgEIggWCmntU0i+IB+RMn9nm1KwszgRDMZ4npzMk5G51bzmbt++nX0zb9Z/9t/yJF27Rlxxt1HkwvjLsn/zk8XMeQDgEEAQs5/E1UsVV41KBsrgPnPT38S2/Ed3lIeFWOPAKtsUGgIogvXWwajTy7dpahs3cWxfrHf7zP6vr460sMa/5vFvFMD9ezV3j9Vm4cYwBz1IBd21y40iBbaNVlGw3KxPemjrqot/f341ESkab6CgL3cPZ0KqNn7YejIAcoUOqgFPc59aseakATaU4325duYJTaAWozQAGkkLwjFSF35RC43812Cch+oqEGfPHPljAtaBanDJB9SH2tATBLQOMG8g8i2gIwRuUG/QF/o+zMo6Y3pcuQIcQa101AZAXuoFGok+uPQ2AGoaqN+VM3ly5voWuHcAeHz6KM+wPeYAAAAASUVORK5CYII="
+		},
+		{
+			"path": "/Users/Mark/Downloads/spruce_planks.png",
+			"name": "spruce_planks.png",
+			"folder": "",
+			"namespace": "",
+			"id": "8",
+			"group": "",
+			"width": 16,
+			"height": 16,
+			"uv_width": 128,
+			"uv_height": 128,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": true,
+			"saved": true,
+			"uuid": "7da126fe-2de6-2a0e-defd-62923128081d",
+			"relative_path": "../../../../../../../../../../../Downloads/spruce_planks.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAUZJREFUOE91U7FqAkEQnYV4J6coGAjpxB+wShN/wS6Qxs7CPnXKVP5lygRB4UAP7xRW3siT56rT7O7M7NuZN2/Dz3wS93Vj7Tyz7Claas0xPPT/rrYWAIBLAIH9lY31c7OinTkojXH6NuXWQ+F79hbTRJxxodqfQWkAhTHfK5hPx7GuKw/keeErzofq4PtW0fIVZ+zVj723gN7/1zt7fe5cvZj6wAdbQXWDfve6BZaNUpFQ1nbhQ0tXXsLXx9hJJGl8gYSOXro3RCo34XMydAD2Ch6UA95mnFwx58IBAtpjr3Mm75EhF6N0AApJk9MxkheuyAVHYbl4jym7CsTZ08f+MQGvQDm4pwPyQ26oCQJ6BZg3EPkXUBEML6g2qAv9Hy5lnTE1rr0CHEaudNQOwL5UCxQSdXDvbwDUOVC9a8/skzPXv8DYCajO90qDzdcqAAAAAElFTkSuQmCC"
+		},
+		{
+			"path": "/Users/Mark/Downloads/jungle_planks.png",
+			"name": "jungle_planks.png",
+			"folder": "",
+			"namespace": "",
+			"id": "9",
+			"group": "",
+			"width": 16,
+			"height": 16,
+			"uv_width": 128,
+			"uv_height": 128,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": true,
+			"saved": true,
+			"uuid": "416057a6-99e4-3503-2330-f1df87408c9a",
+			"relative_path": "../../../../../../../../../../../Downloads/jungle_planks.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAVFJREFUOE91U7FqAkEQ3W28I+JhoyGCqF/gT0gKaz8hRUiqlPkCO1tLe7/Azk9RERIQhMuJ4S7NhTfw5N2q0+zuzOzbmTdv/Wr6UmZZ6pKk6aIocqEVRXHXv9lvnQcALgEEdvxJXRzVXD1+MFAa4/R9H74s5JefkzJMxBkXzvlvpSCAwphvFczfRuXucLJAr92wFec0y23fTGJbccZe/dhbC+h9u9+4fndQeTH0gQ+2guqe2p1qCywbpSIhL/4ufGjpyotffIyNRJLGF0jooNu/IlK58a/PQwNgr+BBOeBtxskVcy4cIKA9tlqPV5pQB3IxSgOgkDQhHCN54YpccOTXs/cyZFeBOHv62D8mYBUoB7d0QH7IDTVBQKsA8wYi/wIqguEF1QZ1of/DpKwzpsa1V4DDyJWO2gDYl2qBQqIObv0NgBoHqnftmX1y5voXGPsHlx4CXk/Q78UAAAAASUVORK5CYII="
+		},
+		{
+			"path": "/Users/Mark/Downloads/dark_oak_planks.png",
+			"name": "dark_oak_planks.png",
+			"folder": "",
+			"namespace": "",
+			"id": "10",
+			"group": "",
+			"width": 16,
+			"height": 16,
+			"uv_width": 128,
+			"uv_height": 128,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": true,
+			"saved": true,
+			"uuid": "a1c017e3-526a-f28c-e7bf-9b025cacb20c",
+			"relative_path": "../../../../../../../../../../../Downloads/dark_oak_planks.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAT5JREFUOE91U7tuAjEQtMNhXhERSAhETUMVKRVKQU+VIv//BRQIJF6+A6NZNGjOwDZ39q7HO7Nj//czSfGSXGh4V4QPl0cVr2/317uz8wDAIYAgtvvoiqZ3vdA0UAbz3Nsco6X86nuc8kKscWAfy1pDAEWw3jr4nQ3SIV4s0Q0N+2J9rq723yrutLDGv+7j3yiA+3p7cqOvdu3GfA96kAq6G3RCnQLbRqsoqMr00ENbV138cj409Sgab6Cgo37rSUjVxs+nnwZArtBBNeBp5qkVax4aIKEcu527oO8CtRilAdBIWpyPkbrwaxeWyfn/xTTl6ioQZ8898scErAPV4JUPqA+1oScIaB1g3kDkW0BHCNyg3qAv9H2YlXXG9LhyBTiCWumoDYC81As0En3w6m0A1DRQvytn8uTM9S0wdwP5yfVDXayGQQAAAABJRU5ErkJggg=="
+		},
+		{
+			"path": "/Users/Mark/Downloads/mangrove_planks.png",
+			"name": "mangrove_planks.png",
+			"folder": "",
+			"namespace": "",
+			"id": "11",
+			"group": "",
+			"width": 16,
+			"height": 16,
+			"uv_width": 128,
+			"uv_height": 128,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": true,
+			"saved": true,
+			"uuid": "166fbbc2-2834-ff1d-0bc9-3032de326c6c",
+			"relative_path": "../../../../../../../../../../../Downloads/mangrove_planks.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAUlJREFUOE91U0tKA0EUfB10ZpK4UAjiIngAwYUQBF269wiewZVk6QG8pgtxo4JJZkaZkSqtUOnE3vTnva5+Va86Pd7M+noVUQ0jDsZF5ONz0f57/v7SRAIALgGE80cTRTmMQdURVENxnS3fBgyl+dWszxOxx4Wu/k3SACiG8lnB/dl5v2iXDIyLEWfsm/qL67La54w91n6ONSmA++vzdxxP9zZezM+gh6igutFRt0lBZaNUJLTNaq2Hl+66pIeLS4oo0fSCBD08KbeEdG3S3fSUAOIKHVwD3VZcWilnrQECznEy2faEC4RctJIAMpIn5G2ULpqRC43S0+11n6u7q/c6E390gBW4Brt8IH2kjTwhQFaAfgNRfwEVYeAF94Z84f+DVvYey+POFeBs69+n81YTQLzcCzKSfOAmA5juUAP3u3MWT/Xc/4JiP1Z35soLcAy7AAAAAElFTkSuQmCC"
+		},
+		{
+			"path": "/Users/Mark/Downloads/pale_oak_planks.png",
+			"name": "pale_oak_planks.png",
+			"folder": "",
+			"namespace": "",
+			"id": "12",
+			"group": "",
+			"width": 16,
+			"height": 16,
+			"uv_width": 128,
+			"uv_height": 128,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": true,
+			"saved": true,
+			"uuid": "fdd09c96-247f-5789-2bbb-838d276c7b67",
+			"relative_path": "../../../../../../../../../../../Downloads/pale_oak_planks.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAUpJREFUOE91U7FOQkEQvCt8GkAtxEhjAQ0S48/zBVZQaYExYKGEvAQLBKICeR7FkdlkyLwDt7m73b253dk5H5aLOF/9uqvauTupVVxq29XmX/9o+OY8AHAJILBZPnXVs8xVrusGSmOcvnw8tpD/zCcxTcQZFzazr1JBAIUx3yoY9Ppx/fNtgerFpa04/4Vg+9MssxVn7NWPvbWA3j9eXl3r4b70YuoDH2wF1d02m+UWWDZKRcK6CHs+tHTlxb8/PxmJJI0vkNC7TvuASOXGP3a7BsBewYNywNuMkyvm7DlAQHtsNG4ONKEO5GKUBkAhaUI6RvLC1aZVBOfjtogpuwrE2dPH/jEBq0A5OKYD8kNuqAkCWgWYNxD5F1ARDC+oNqgL/R8mZZ0xNa69AhxGrnTUBsC+VAsUEnVw7G8A1DhQvWvP7JMz17/A2A6+cBU0zWELvAAAAABJRU5ErkJggg=="
+		},
+		{
+			"path": "/Users/Mark/Downloads/warped_planks.png",
+			"name": "warped_planks.png",
+			"folder": "",
+			"namespace": "",
+			"id": "13",
+			"group": "",
+			"width": 16,
+			"height": 16,
+			"uv_width": 128,
+			"uv_height": 128,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": true,
+			"saved": true,
+			"uuid": "6887dd56-b520-d820-eb4a-c19770842d71",
+			"relative_path": "../../../../../../../../../../../Downloads/warped_planks.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAVJJREFUOE91U7tKQ0EU3G2CeBW5USwUtDFgIT4KwcdXxCZlyrT5Bm3Fv0qtgqWtCr6C6FWxWZnRCXM3yTa7e/bs7Jk5s/Hw7DQNX+5CubgaYjEb8pGqz6nx+5urEAGASwDB+Hp4CgszKfyUywTV0Lli1e0lj+Jmv5fyROxxoTF8rBUEUAzls4L1zklKz69/aEtNzti/VxXX80XBGXusPY41KYD7x/UgzO0c117MY9BDVFBdsbFXp6CyUSoS3r7jSA8v3XWJ2902RZRoekGCrmztjgnp2sTyYJ8A4godXAPd1rm0Us5IA4pnHJtrrTFPeAC5aCUBZCRPyNsoXTQjFxrFo4vzlKvrQOq9YuKPDrAC12CSD6SPtJEnBMgK0G/29P8voCIMvODekC/8f9DK3mN53LkCHENaeasJIF7uBRlJPpj0N9hSaOB+d87iqZ77X9DZLxOy9jfMUCkhAAAAAElFTkSuQmCC"
+		}
+	],
+	"variants": {
+		"default": {
+			"name": "default",
+			"display_name": "Default",
+			"uuid": "ca530e12-eb65-5e6f-8e5c-555b173af6f1",
+			"texture_map": {},
+			"excluded_nodes": [],
+			"is_default": true
+		},
+		"list": [
+			{
+				"name": "396",
+				"display_name": "396",
+				"uuid": "08b2ff62-de86-792d-5db2-54dbe8c20c21",
+				"texture_map": {
+					"5b710ff8-57a9-63ee-b051-2a521eaa0cb0": "7a50e51a-e5b1-d0cf-8f70-d8cde6731400",
+					"e614d387-4fa4-e4e3-e9ac-65356b5d6f9c": "7a50e51a-e5b1-d0cf-8f70-d8cde6731400"
+				},
+				"excluded_nodes": []
+			},
+			{
+				"name": "acacia",
+				"display_name": "acacia",
+				"uuid": "ffb553f3-45fb-4f41-9730-20ef3c708f05",
+				"texture_map": {
+					"e614d387-4fa4-e4e3-e9ac-65356b5d6f9c": "7ebe4086-3990-a62c-affe-19e804b8962b"
+				},
+				"excluded_nodes": []
+			},
+			{
+				"name": "bamboo",
+				"display_name": "bamboo",
+				"uuid": "66ede96d-ce6d-aa20-9214-a65f21082485",
+				"texture_map": {
+					"e614d387-4fa4-e4e3-e9ac-65356b5d6f9c": "346f368c-6036-8af4-d6ff-ac0dc535ce12"
+				},
+				"excluded_nodes": []
+			},
+			{
+				"name": "birch",
+				"display_name": "birch",
+				"uuid": "c3f5cbb0-526b-f862-e3c6-b8320ead5105",
+				"texture_map": {
+					"e614d387-4fa4-e4e3-e9ac-65356b5d6f9c": "5038669f-c5b5-f3ef-5586-dce61cc37eb6"
+				},
+				"excluded_nodes": []
+			},
+			{
+				"name": "cherry",
+				"display_name": "cherry",
+				"uuid": "553c11b3-fe2d-5da2-7191-4755e694f153",
+				"texture_map": {
+					"e614d387-4fa4-e4e3-e9ac-65356b5d6f9c": "b057ff47-220a-e026-d94b-d06e83f87802"
+				},
+				"excluded_nodes": []
+			},
+			{
+				"name": "crimson",
+				"display_name": "crimson",
+				"uuid": "b39ae251-7ae1-6d28-3b40-7768dac2ad4d",
+				"texture_map": {
+					"e614d387-4fa4-e4e3-e9ac-65356b5d6f9c": "2ed51c0d-8100-83f2-f626-fd75774d1aad"
+				},
+				"excluded_nodes": []
+			},
+			{
+				"name": "spruce",
+				"display_name": "spruce",
+				"uuid": "5921c55e-7688-dc80-a58d-f81e4c867788",
+				"texture_map": {
+					"e614d387-4fa4-e4e3-e9ac-65356b5d6f9c": "7da126fe-2de6-2a0e-defd-62923128081d"
+				},
+				"excluded_nodes": []
+			},
+			{
+				"name": "jungle",
+				"display_name": "jungle",
+				"uuid": "c203f0b1-6699-49c5-8f2f-6333c6e50c67",
+				"texture_map": {
+					"e614d387-4fa4-e4e3-e9ac-65356b5d6f9c": "416057a6-99e4-3503-2330-f1df87408c9a"
+				},
+				"excluded_nodes": []
+			},
+			{
+				"name": "dark_oak",
+				"display_name": "dark_oak",
+				"uuid": "10037dfd-4a0f-1f83-433d-bb0533331e32",
+				"texture_map": {
+					"e614d387-4fa4-e4e3-e9ac-65356b5d6f9c": "a1c017e3-526a-f28c-e7bf-9b025cacb20c"
+				},
+				"excluded_nodes": []
+			},
+			{
+				"name": "mangrove",
+				"display_name": "mangrove",
+				"uuid": "ef3e18db-f0db-4e99-35b5-c3a167789ff8",
+				"texture_map": {
+					"e614d387-4fa4-e4e3-e9ac-65356b5d6f9c": "166fbbc2-2834-ff1d-0bc9-3032de326c6c"
+				},
+				"excluded_nodes": []
+			},
+			{
+				"name": "pale_oak",
+				"display_name": "pale_oak",
+				"uuid": "aa465f90-00a9-9086-303a-99754903819f",
+				"texture_map": {
+					"e614d387-4fa4-e4e3-e9ac-65356b5d6f9c": "fdd09c96-247f-5789-2bbb-838d276c7b67"
+				},
+				"excluded_nodes": []
+			},
+			{
+				"name": "warped",
+				"display_name": "warped",
+				"uuid": "1c2ba488-cc48-4ec9-40fe-ae18a2f49734",
+				"texture_map": {
+					"e614d387-4fa4-e4e3-e9ac-65356b5d6f9c": "6887dd56-b520-d820-eb4a-c19770842d71"
+				},
+				"excluded_nodes": []
+			}
+		]
+	}
+}

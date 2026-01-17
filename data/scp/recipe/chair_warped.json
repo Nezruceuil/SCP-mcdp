@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1",
+    "21",
+    "33"
+  ],
+  "key": {
+    "1": "minecraft:warped_planks",
+    "2": "minecraft:warped_slab",
+    "3": "minecraft:warped_fence"
+  },
+  "result": {
+    "id": "minecraft:dolphin_spawn_egg",
+    "components": {
+      "minecraft:item_name": "warped_chair",
+      "minecraft:max_stack_size": 1,
+      "minecraft:entity_data": {
+        "id": "minecraft:armor_stand",
+        "Invulnerable": false,
+        "Tags": [
+          "chair1",
+          "warped"
+        ]
+      }
+    }
+  }
+}

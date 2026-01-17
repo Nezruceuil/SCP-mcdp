@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1",
+    "21",
+    "33"
+  ],
+  "key": {
+    "1": "minecraft:birch_planks",
+    "2": "minecraft:birch_slab",
+    "3": "minecraft:birch_fence"
+  },
+  "result": {
+    "id": "minecraft:dolphin_spawn_egg",
+    "components": {
+      "minecraft:item_name": "birch_chair",
+      "minecraft:max_stack_size": 1,
+      "minecraft:entity_data": {
+        "id": "minecraft:armor_stand",
+        "Invulnerable": false,
+        "Tags": [
+          "chair1",
+          "birch"
+        ]
+      }
+    }
+  }
+}
