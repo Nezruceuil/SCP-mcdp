@@ -1,0 +1,1 @@
+give @s dried_kelp[item_model="scp:blahaj",item_name="Blahaj",equippable={slot:"head"},custom_data={blahaj:1b},food={nutrition:1,saturation:1,can_always_eat:true}]
