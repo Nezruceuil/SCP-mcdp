@@ -13,14 +13,14 @@ execute as @a unless entity @s[scores={death=0}] run scoreboard players set @s d
 
 #blahaj
 
-execute as @e if items entity @s armor.head *[minecraft:custom_data={blahaj:1b}] at @s unless block ~ ~ ~ minecraft:water run effect give @s minecraft:water_breathing 20
+execute as @e if items entity @s armor.head *[minecraft:custom_data={blahaj:1b}] at @s unless block ~ ~ ~ minecraft:water run effect give @s minecraft:water_breathing 15 0 true
 
 scoreboard objectives add blahaj dummy
 execute as @a unless entity @s[scores={blahaj=0}] run scoreboard players add @a blahaj 0
 execute as @a unless entity @s[scores={blahaj=0}] run scoreboard players remove @a blahaj 1
 
-execute as @a if entity @s[scores={blahaj=0}] if items entity @s weapon.mainhand *[minecraft:custom_data={blahaj2:1b}] run item replace entity @s weapon.mainhand with dried_kelp[item_model="scp:blahaj",item_name="Blahaj",equippable={slot:"head"},custom_data={blahaj:1b},food={nutrition:1,saturation:1,can_always_eat:true}]
-execute as @a if entity @s[scores={blahaj=0}] if items entity @s weapon.offhand *[minecraft:custom_data={blahaj2:1b}] run item replace entity @s weapon.offhand with dried_kelp[item_model="scp:blahaj",item_name="Blahaj",equippable={slot:"head"},custom_data={blahaj:1b},food={nutrition:1,saturation:1,can_always_eat:true}]
+execute as @a if entity @s[scores={blahaj=0}] if items entity @s weapon.mainhand *[minecraft:custom_data={blahaj2:1b}] run item replace entity @s weapon.mainhand with dried_kelp[item_model="scp:blahaj",item_name="Blahåj",equippable={slot:"head"},custom_data={blahaj:1b},food={nutrition:1,saturation:1,can_always_eat:true}]
+execute as @a if entity @s[scores={blahaj=0}] if items entity @s weapon.offhand *[minecraft:custom_data={blahaj2:1b}] run item replace entity @s weapon.offhand with dried_kelp[item_model="scp:blahaj",item_name="Blahåj",equippable={slot:"head"},custom_data={blahaj:1b},food={nutrition:1,saturation:1,can_always_eat:true}]
 
 #010
 execute as @e if items entity @s armor.head *[custom_data={010b:1b}] run tag @s add 010
@@ -476,5 +476,4 @@ execute if entity @e[tag=396subject2b] run tag @e remove 396subject2b
 
 
 #398
-execute in scp:398 as @a[tag=!398] at @s run place structure scp:398
-execute in scp:398 as @a[tag=!398] at @s run tag @s add 398
+execute in scp:398 as @a at @s facing entity @s eyes positioned ~10 ~ ~4 in scp:398 rotated as @s run place structure scp:398

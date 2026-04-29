@@ -13,7 +13,7 @@
     "id": "minecraft:dried_kelp",
     "components": {
       "minecraft:item_model": "scp:blahaj",
-      "minecraft:item_name": "Blahaj",
+      "minecraft:item_name": "Blahåj",
       "minecraft:equippable": {
         "slot": "head"
       },

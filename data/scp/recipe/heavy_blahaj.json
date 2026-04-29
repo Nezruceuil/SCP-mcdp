@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #@",
+    "#a@",
+    " #@"
+  ],
+  "key": {
+    "#": "minecraft:cyan_wool",
+    "@": "minecraft:white_wool",
+    "a": "minecraft:heavy_core"
+  },
+  "result": {
+    "id": "minecraft:mace",
+    "components": {
+      "minecraft:item_model": "scp:blahaj",
+      "minecraft:item_name": "Heavy Blahåj"
+    },
+    "count": 1
+  },
+  "show_notification": true
+}
