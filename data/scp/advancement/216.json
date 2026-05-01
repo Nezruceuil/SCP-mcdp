@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": "{216:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "scp:216_give"
+  }
+}

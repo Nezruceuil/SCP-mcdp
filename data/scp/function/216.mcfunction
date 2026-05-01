@@ -1,3 +1,3 @@
-$item replace entity @s weapon.offhand with waxed_copper_chest[lock={components:{"minecraft:custom_name":"$(temp)"}},custom_name="scp 216",custom_data={216:1b},rarity="epic"]
-execute if items entity @s weapon.offhand *[lock={components:{custom_name:""}}] run item replace entity @s weapon.offhand with waxed_copper_chest[custom_name="scp 216",custom_data={216:1b},rarity="epic"]
+$item replace entity @s weapon.offhand with waxed_copper_chest[lock={components:{"minecraft:custom_name":"$(temp)"}},custom_name="scp 216",custom_data={216:1b},rarity="epic",consumable={consume_seconds:1000000000}]
+execute if items entity @s weapon.offhand *[lock={components:{custom_name:""}}] run item replace entity @s weapon.offhand with waxed_copper_chest[custom_name="scp 216",custom_data={216:1b},rarity="epic",consumable={consume_seconds:1000000000}]
 execute as @s[tag=216] run advancement grant @s only scp:scp/216b
