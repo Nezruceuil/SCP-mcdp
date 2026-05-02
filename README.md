@@ -7,18 +7,23 @@ Go in the release tab and download both the resource pack and the datapack. Extr
 SCP is a world where there monsters in 3 class: Keter = Is very dangerous ; Euclid = dangerous ; Safe = not dangerous            
 link: **https://scp-wiki.wikidot.com**
 
+## Why?
 This project is a datapack I made because I could find a lot of scp Datapack/Mod
 
+## Attention:
 **!!! It contains things that can cause aquaphobia, entomophobia, trypophobia, arachnophobia, and achluophobia.**
 
+## Version:
 use version 1.21.11/.10/.09 for it to work
 
+## command:
 if you wanna test the stuff in creative type the command: 
 ```
 function scp:demo
 ```
 it will give you all the new items from the datapack and spawn all the new mobs that are added by this datapack.
 
+## How things works:
 If you want a certain thing:
 - If it is an item just check in the functions if the end is ... _give
 - if it is a mob just check in the functions if the end is ... _summon
@@ -46,9 +51,6 @@ If you want to:
 - don't have 355 in one of your hand if you are swimming it is a great pool noodle if you wanna sink.
 - use 377: eat them and see the predictions (the predictions have  a cooldown.)
 - use 396: place a chair and bait an animal/player to sit on it and then sit on 396 you might switch places
-
-
-
 
 ## Datapack/Resource Pack
 **Datapack: https://github.com/Nezruceuil/SCP-mcdp**              
