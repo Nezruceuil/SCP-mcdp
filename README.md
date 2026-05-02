@@ -1,5 +1,8 @@
 # SCP in Minecraft
 
+## Attention!!!:
+**!!! It contains things that can cause aquaphobia, entomophobia, trypophobia, arachnophobia, and achluophobia.**
+
 ## Demo
 Go in the release tab and download both the resource pack and the datapack. Extract it in the correct folders.
 
@@ -9,9 +12,6 @@ link: **https://scp-wiki.wikidot.com**
 
 ## Why?
 This project is a datapack I made because I could find a lot of scp Datapack/Mod
-
-## Attention:
-**!!! It contains things that can cause aquaphobia, entomophobia, trypophobia, arachnophobia, and achluophobia.**
 
 ## Version:
 use version 1.21.11/.10/.09
