@@ -1,6 +1,6 @@
 # SCP in Minecraft
 
-## Attention!!!:
+## Attention!!!
 **!!! It contains things that can cause aquaphobia, entomophobia, trypophobia, arachnophobia, and achluophobia.**
 
 ## Demo
