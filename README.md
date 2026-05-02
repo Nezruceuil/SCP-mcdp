@@ -52,6 +52,25 @@ If you want to:
 - use 377: eat them and see the predictions (the predictions have  a cooldown.)
 - use 396: place a chair and bait an animal/player to sit on it and then sit on 396 you might switch places
 
+# Images:
+<img width="697" height="514" alt="Capture d’écran 2026-05-02 à 11 02 27" src="https://github.com/user-attachments/assets/b9416c67-db94-436c-b9f5-73316f3cca8a" />
+
+<img width="3456" height="2168" alt="2026-05-02_11 08 34" src="https://github.com/user-attachments/assets/17381f62-d239-4ef7-a16b-2e10779215fa" />
+
+<img width="3456" height="2168" alt="2026-05-02_11 12 01" src="https://github.com/user-attachments/assets/b238b27e-f072-4372-8d2a-0c00976fe4ad" />
+
+<img width="3456" height="2168" alt="2026-05-02_11 13 57" src="https://github.com/user-attachments/assets/b98bad04-a3b6-4f41-b434-89af489e1bb1" />
+
+<img width="3456" height="2168" alt="2026-05-02_11 17 32" src="https://github.com/user-attachments/assets/eeeab7cd-c253-47c8-80ff-e0ca5f20e14d" />
+
+<img width="3456" height="2168" alt="2026-05-02_11 20 35" src="https://github.com/user-attachments/assets/6629153c-4f5b-4259-9471-b00c40c9ec0e" />
+
+<img width="592" height="397" alt="Capture d’écran 2026-05-02 à 11 26 23" src="https://github.com/user-attachments/assets/18de143a-c44c-405f-851c-76b38a425b6c" />
+
+<img width="641" height="399" alt="Capture d’écran 2026-05-02 à 11 26 07" src="https://github.com/user-attachments/assets/aa25bdf6-81f5-467d-9191-531675e3931f" />
+<img width="604" height="348" alt="Capture d’écran 2026-05-02 à 11 25 57" src="https://github.com/user-attachments/assets/9bed411a-9d05-4efd-a5e2-c3aeae21f527" />
+
+
 ## Datapack/Resource Pack
 **Datapack: https://github.com/Nezruceuil/SCP-mcdp**              
 **Resource Pack: https://github.com/Nezruceuil/SCP-mcrp**
