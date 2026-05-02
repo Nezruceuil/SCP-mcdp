@@ -14,7 +14,7 @@ This project is a datapack I made because I could find a lot of scp Datapack/Mod
 **!!! It contains things that can cause aquaphobia, entomophobia, trypophobia, arachnophobia, and achluophobia.**
 
 ## Version:
-use version 1.21.11/.10/.09 for it to work
+use version 1.21.11/.10/.09
 
 ## command:
 if you wanna test the stuff in creative type the command: 
