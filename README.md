@@ -7,7 +7,7 @@
 Go in the release tab and download both the resource pack and the datapack. Extract it in the correct folders.
 
 ## What is SCP
-SCP is a world where there monsters in 3 class: Keter = Is very dangerous ; Euclid = dangerous ; Safe = not dangerous            
+SCP is a world where there monsters in 3 classes: Keter = Is very dangerous ; Euclid = dangerous ; Safe = not dangerous          
 more information about classes: **https://scp.fandom.com/wiki/SCPs/Classes**
 
 ## link to all of the scp's
