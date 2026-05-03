@@ -31,29 +31,51 @@ If you want a certain thing:
 - If it is an item just check in the functions if the end is ... _give
 - if it is a mob just check in the functions if the end is ... _summon
 If you want to:
-- use 005: click on a door/trapdoor to open an sneak+click to close ; more info: **https://scp-wiki.wikidot.com/scp-005**
-- use 010: make someone equip the collar and then use the book to tell him what to do ; more info: **https://scp-wiki.wikidot.com/scp-010**
-- use 034: just start eating it and to make the effect disappear drink milk ; more info: **https://scp-wiki.wikidot.com/scp-034**
-- 035 will always try to be on your head don't have it in your main/offhand or it might go on your head ; more info: **https://scp-wiki.wikidot.com/scp-035**
-- make 042 fly: start eating a golden carrot ; more info: **https://scp-wiki.wikidot.com/scp-042**
-- use 081: click on someone to infect him/ sneak+click to infect yourself (you can protect yourself by wearing a mask) ; more info: **https://scp-wiki.wikidot.com/scp-081**
-- use 117: sneak+click to change the tool you use ; more info: **https://scp-wiki.wikidot.com/scp-117**
-- use 120: summon 120a and 120b and sneak at the position of 120a to go to 120b and vice versa ; more info: **https://scp-wiki.wikidot.com/scp-120**
-- use 122: place it anywhere it will get rid of the monsters ; more info: **https://scp-wiki.wikidot.com/scp-122**
-- talk with 126: throw him a book where you have written on the first page/first line of it ; more info: **https://scp-wiki.wikidot.com/scp-126**
+- use 005: click on a door/trapdoor to open an sneak+click to close ;
+- more info: **https://scp-wiki.wikidot.com/scp-005**
+- use 010: make someone equip the collar and then use the book to tell him what to do ;
+- more info: **https://scp-wiki.wikidot.com/scp-010**
+- use 034: just start eating it and to make the effect disappear drink milk ;
+- more info: **https://scp-wiki.wikidot.com/scp-034**
+- 035 will always try to be on your head don't have it in your main/offhand or it might go on your head ;
+- more info: **https://scp-wiki.wikidot.com/scp-035**
+- make 042 fly: start eating a golden carrot ;
+- more info: **https://scp-wiki.wikidot.com/scp-042**
+- use 081: click on someone to infect him/ sneak+click to infect yourself (you can protect yourself by wearing a mask) ;
+- more info: **https://scp-wiki.wikidot.com/scp-081**
+- use 117: sneak+click to change the tool you use ;
+- more info: **https://scp-wiki.wikidot.com/scp-117**
+- use 120: summon 120a and 120b and sneak at the position of 120a to go to 120b and vice versa ;
+- more info: **https://scp-wiki.wikidot.com/scp-120**
+- use 122: place it anywhere it will get rid of the monsters ;
+- more info: **https://scp-wiki.wikidot.com/scp-122**
+- talk with 126: throw him a book where you have written on the first page/first line of it ;
+- more info: **https://scp-wiki.wikidot.com/scp-126**
 - don't stare at an ocean picture/water painting it might be scp:151 and you might drown to death ; more info: **https://scp-wiki.wikidot.com/scp-151**
-- don't start to have 154 on your main/off hand or you will never be able to get rid of it ; more info: **https://scp-wiki.wikidot.com/scp-154**
-- don't wear 178 or all mobs will start to attack you even if they are passive ; more info: **https://scp-wiki.wikidot.com/scp-178**
-- use 181: just drink this bottle for luck ; more info: **https://scp-wiki.wikidot.com/scp-181**
-- don't start drinking scp 207 or you will be force to drink them regularly ; more info: **https://scp-wiki.wikidot.com/scp-207**
-- use 216 right click it in your offhand with a renamed item in your mainhand this renamed item is now you key to open your safe ; more info: **https://scp-wiki.wikidot.com/scp-216**
-- 226: the box just right click; the puzzle piece make a grid of them in your craft inventory; the image are scary! ; more info: **https://scp-wiki.wikidot.com/scp-226**
-- don't have 309 in your hands for too long you will regret it. ; more info: **https://scp-wiki.wikidot.com/scp-309**
-- don't wear 323 on will regret it. ; more info: **https://scp-wiki.wikidot.com/scp-323**
-- use 325: right click it if you have an item in your other hand it will glow!!! ; more info: **https://scp-wiki.wikidot.com/scp-325**
-- don't have 355 in one of your hand if you are swimming it is a great pool noodle if you wanna sink. ; more info: **https://scp-wiki.wikidot.com/scp-355**
-- use 377: eat them and see the predictions (the predictions have  a cooldown.) ; more info: **https://scp-wiki.wikidot.com/scp-377**
-- use 396: place a chair and bait an animal/player to sit on it and then sit on 396 you might switch places ; more info: **https://scp-wiki.wikidot.com/scp-396**
+- don't start to have 154 on your main/off hand or you will never be able to get rid of it ;
+- more info: **https://scp-wiki.wikidot.com/scp-154**
+- don't wear 178 or all mobs will start to attack you even if they are passive ;
+- more info: **https://scp-wiki.wikidot.com/scp-178**
+- use 181: just drink this bottle for luck ;
+- more info: **https://scp-wiki.wikidot.com/scp-181**
+- don't start drinking scp 207 or you will be force to drink them regularly ;
+- more info: **https://scp-wiki.wikidot.com/scp-207**
+- use 216 right click it in your offhand with a renamed item in your mainhand this renamed item is now you key to open your safe ;
+- more info: **https://scp-wiki.wikidot.com/scp-216**
+- 226: the box just right click; the puzzle piece make a grid of them in your craft inventory; the image are scary! ;
+- more info: **https://scp-wiki.wikidot.com/scp-226**
+- don't have 309 in your hands for too long you will regret it. ;
+- more info: **https://scp-wiki.wikidot.com/scp-309**
+- don't wear 323 or you will regret it. ;
+- more info: **https://scp-wiki.wikidot.com/scp-323**
+- use 325: right click it if you have an item in your other hand it will glow!!! ;
+- more info: **https://scp-wiki.wikidot.com/scp-325**
+- don't have 355 in one of your hand if you are swimming it is a great pool noodle if you wanna sink. ;
+- more info: **https://scp-wiki.wikidot.com/scp-355**
+- use 377: eat them and see the predictions (the predictions have  a cooldown.) ;
+- more info: **https://scp-wiki.wikidot.com/scp-377**
+- use 396: place a chair and bait an animal/player to sit on it and then sit on 396 you might switch places ;
+- more info: **https://scp-wiki.wikidot.com/scp-396**
 
 # Images:
 all of the items:
