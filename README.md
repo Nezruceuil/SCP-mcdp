@@ -10,7 +10,7 @@ Go in the release tab and download both the resource pack and the datapack. Extr
 SCP is a world where there monsters in 3 class: Keter = Is very dangerous ; Euclid = dangerous ; Safe = not dangerous            
 more information about classes: **https://scp.fandom.com/wiki/SCPs/Classes**
 
-## link to all of the scp's:
+## link to all of the scp's
 link: **https://scp-wiki.wikidot.com**
 
 ## Why?
