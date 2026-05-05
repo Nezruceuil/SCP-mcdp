@@ -77,6 +77,8 @@ If you want to:
 - use 396: place a chair and bait an animal/player to sit on it and then sit on 396 you might switch places ;
 - more info: **https://scp-wiki.wikidot.com/scp-396**
 
+**some of the items only work in survival!**
+
 # Images:
 all of the items:
 <img width="697" height="514" alt="Capture d’écran 2026-05-02 à 11 02 27" src="https://github.com/user-attachments/assets/b9416c67-db94-436c-b9f5-73316f3cca8a" />
