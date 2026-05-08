@@ -26,6 +26,16 @@ function scp:demo
 ```
 it will give you all the new items from the datapack and spawn all the new mobs that are added by this datapack.
 
+## Crafts:
+Mask(security mesure agains scp:081):
+<img width="3456" height="2168" alt="2026-05-08_07 06 22" src="https://github.com/user-attachments/assets/93f77acb-431c-44a3-ad3a-24028475a55e" />
+
+blahåj(plushie):
+<img width="3456" height="2168" alt="2026-05-08_15 42 50" src="https://github.com/user-attachments/assets/034f9672-b853-4a7d-9c5e-79fa9752591f" />
+
+heavy blahåj(retextured mace):
+<img width="3456" height="2168" alt="2026-05-08_15 44 04" src="https://github.com/user-attachments/assets/945e0b0d-79e0-46a0-ae0b-380f0676d7a5" />
+
 ## How things works:
 If you want a certain thing:
 - If it is an item just check in the functions if the end is ... _give
