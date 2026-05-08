@@ -1,7 +1,7 @@
 # SCP in Minecraft
 
 ## Attention!!!
-**!!! It contains things that can cause aquaphobia, entomophobia, trypophobia, arachnophobia, and achluophobia.**
+**!!! It contains image that can cause aquaphobia, entomophobia, trypophobia, arachnophobia, and achluophobia.**
 
 ## Demo
 Go in the release tab and download both the resource pack and the datapack. Extract it in the correct folders.
