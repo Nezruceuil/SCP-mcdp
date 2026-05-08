@@ -30,6 +30,9 @@ it will give you all the new items from the datapack and spawn all the new mobs 
 Mask(security mesure agains scp:081):
 <img width="3456" height="2168" alt="2026-05-08_07 06 22" src="https://github.com/user-attachments/assets/93f77acb-431c-44a3-ad3a-24028475a55e" />
 
+Chairs(to make scp 396 work):
+<img width="3456" height="2168" alt="2026-05-08_19 40 34" src="https://github.com/user-attachments/assets/ce27ddf8-50d8-4766-8450-5531d49c9eeb" />
+
 blahåj(plushie):
 <img width="3456" height="2168" alt="2026-05-08_15 42 50" src="https://github.com/user-attachments/assets/034f9672-b853-4a7d-9c5e-79fa9752591f" />
 
